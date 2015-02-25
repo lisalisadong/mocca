@@ -105,6 +105,7 @@ Cons:
 
 Advanced features:
 - Can emulate many different device/ User characteristics, such as network speed/latencies, battery power, location coordinates.
+
     ```
 # connect to emulator
 telnet localhost 5554
@@ -118,12 +119,15 @@ power status not-charging
 # change GPS location
 geo fix 0.00 40.00
     ```
+    
 - Emulate incoming phone calls & SMS messages
+
     ```
 telnet localhost 5554
 # send SMS to emulator
 sms send 3055555555 "This is a text message"
     ```
+    
 - Can interconnect multiple emulators
 
 ### Debugger
