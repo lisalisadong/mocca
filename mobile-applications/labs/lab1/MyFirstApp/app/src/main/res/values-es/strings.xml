@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">MyFirstApp</string>
+
+    <string name="hello_world">Hola Mundo! Me llamo Qingxiao.</string>
+    <string name="action_settings">Settings</string>
+</resources>
