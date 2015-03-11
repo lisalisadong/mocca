@@ -222,7 +222,7 @@ device's orientation, screen size, etc.
 > Manual Reconfiguration
 * Can prevent system from restarting Activity
 * Declare the configuration changes your activity handles in `AndroidManifest.xml` file, e.g.,
-```Java
+```java
 <activity android:name=".MyActivity"
     android:configChanges=
         "orientation|screensize|keyboardHidden"...>
