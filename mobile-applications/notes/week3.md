@@ -30,7 +30,7 @@ Intent Fields:
 * Setting the Intent action:
  * `Intent newInt = new Intent(Intent.ACTION_DIAL);` - pass an action string as
  a parameter to the Intent constructor
- *  ```java
+ ```java
  Intent newInt = new Intent();
  newInt.setAction(Intent.ACTION_DIAL);
  ```
@@ -46,7 +46,7 @@ Intent Fields:
  `Uri.parse("tel:+15555555555")`
 * Setting Intent data:
  * `Intent newInt = new Intent(Intent.ACTION_DIAL, Uri.parse("tel:+15555555555"));` or
- * ```java
+ ```java
  Intent newInt = new Intent(Intent.ACTION_DIAL);
  newInt.setData(Uri.parse("tel:+15555555555"));
  ```
