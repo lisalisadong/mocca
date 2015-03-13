@@ -253,4 +253,82 @@ Intent Fields:
     * Permissions checked in multiple places
 
     **ContentProvider Permissions**
-    * Restrict which components can read & write the data in a CntentProvider
+    * Restrict which components can read & write the data in a ContentProvider
+
+### The Fragment Class
+For better supporting user interfaces for devices with large screen such as tablets
+
+  **Tablet UIs**
+  * Tablets have larger displays than phones do
+  * They can support multiple UI panes / user behaviors at the same time
+   * The 1 activity - 1 thing the user can do heuristic may not work for larger devices
+
+    #### Fragment
+    * Represents a behavior / portion of UI within an Activity
+    * Multiple Fragments can be embedded in an Activity to create a multi-pane UI
+    * A single Fragment can be reused across multiple Activities
+
+    #### Fragment Lifecycle
+    * Fragment lifecycle is coordinated with the lifecycle of its containing Activity
+    * Fragments have their own lifecycles and receive their own callbacks
+
+    #### Fragment Lifecycle States
+    * Resumed
+     * Fragment is visible in the running activity
+    * Paused
+     * Another activity is in the foreground and has focus, containing activity is visible
+    * Stopped
+     * The fragment is not visible
+
+    #### Lifecycle Callback Methods
+    * Activity Created:
+     * `onAttach()` - fragment is first attached to its activity
+     * `onCreate()` - initialize the fragment (unlike the activity.onCreate, user
+         interface is not set up in fragment.onCreate)
+     * `onCreateView()` - Fragment sets up & returns its user interface
+     * `onActivityCreated()` - containing activity has completed onCreate() and
+     the fragment has been installed
+    * Activity Started:
+     * `onStart()` - hosting activity about to become visible
+    * Activity Resumed:
+     * `onResume()` - hosting activity is about to become visible and ready for
+     user interaction
+    * Activity Paused:
+     * `onPause()` - hosting activity is visible, but does not have focus
+    * Activity Stopped:
+     * `onStop()` - hosting activity is no longer visible
+    * Activity Destroyed:
+     * `onDestroyView()` - view previously created by `onCreateView()` has been
+     detached from the activity; **typical actions**: clean up view resources
+     * `onDestroy()` - fragment is no longer in use; **typical actions**: clean up
+     fragment resources
+     * `onDetach()` - fragment no longer attached to its activity; **typical actions**:
+     null out references to hosting activity
+
+    #### Adding Fragments to Activities
+    * Two general ways to add Fragment to an Activity's layout
+     * Declare it statically in the activity's layout file, or
+     * Add it programmatically using the fragmentManager
+
+    #### Fragment Layout
+    * Layout can be inflated / implemented in `onCreateView()`
+    * `onCreateView()` must return the View at the root of the Fragment's layout
+    * This View is added to the containing activity
+
+    #### Adding Fragments Dynamically
+    * While an activity's running you can add a Fragment to its layout
+     * Get reference to the fragmentManager
+     * Begin a FragmentTransaction
+     * Add the Fragment
+     * Commit the FragmentTransaction
+
+    #### Dynamic Layout
+    * Fragment transactions allows you to dynamically change your app's user interface
+    * Can make the interface more fluid & take better advantage of available screen space
+
+    #### Configuration Changes
+    * If you call `setRetainInstance(true)`, Android won't destroy the Fragment
+    on configuration changes
+    * Results in some changes to lifecycle callback sequence
+     * `onDestroy()` will not be called
+     * `onCreate()` will not be called
