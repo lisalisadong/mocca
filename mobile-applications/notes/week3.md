@@ -1,4 +1,4 @@
-## Week 2
+## Week 3
 
 ### The Intent Class
 A data structure that represents:
