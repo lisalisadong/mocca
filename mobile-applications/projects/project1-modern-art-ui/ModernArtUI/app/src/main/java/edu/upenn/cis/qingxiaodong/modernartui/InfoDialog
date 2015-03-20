@@ -1,0 +1,36 @@
+package edu.upenn.cis.qingxiaodong.modernartui;
+
+import android.app.Activity;
+import android.app.Dialog;
+import android.os.Bundle;
+import android.view.View;
+import android.view.View.OnClickListener;
+import android.widget.Button;
+
+public class InfoDialog extends Activity {
+
+    private Button buttonClick;
+
+    public void onCreate(Bundle savedInstanceState) {
+
+        super.onCreate(savedInstanceState);
+        setContentView(R.layout.dialog);
+
+        // add listener to button
+        buttonClick.setOnClickListener(new OnClickListener() {
+
+            @Override
+            public void onClick(View arg0) {
+
+                // Create custom dialog object
+                final Dialog dialog = new Dialog(InfoDialog.this);
+                // Include dialog.xml file
+                dialog.setContentView(R.layout.dialog);
+                dialog.show();
+            }
+
+        });
+
+    }
+
+}

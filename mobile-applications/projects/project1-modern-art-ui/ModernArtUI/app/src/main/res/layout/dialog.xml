@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent"
+    android:background="@color/slate_blue">
+
+    <TextView
+        android:id="@+id/info1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:layout_marginLeft="4dp"
+        android:layout_marginRight="4dp"
+        android:layout_marginBottom="4dp"
+        android:text="@string/info1"
+        android:gravity="center_horizontal"
+        android:textSize="16dp"
+        android:textColor="#FFFFFF"/>
+
+    <TextView
+        android:id="@+id/info2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:layout_marginLeft="4dp"
+        android:layout_marginRight="4dp"
+        android:layout_marginBottom="4dp"
+        android:text="@string/info2"
+        android:layout_below="@+id/info1"
+        android:gravity="center_horizontal"
+        android:textSize="16dp"
+        android:textColor="#FFFFFF"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/info2">
+
+        <Button
+            android:id="@+id/nButton"
+            android:layout_width="0.0dip"
+            android:layout_height="fill_parent"
+            android:layout_weight="1"
+            android:text="NOT NOW"
+            android:layout_below="@+id/info2"
+            android:gravity="center"
+            android:background="@android:color/transparent"
+            android:textColor="#F06292"/>
+
+        <Button
+            android:id="@+id/pButton"
+            android:layout_width="0.0dip"
+            android:layout_height="fill_parent"
+            android:layout_weight="1"
+            android:text="VISIT MOMA"
+            android:layout_below="@+id/info2"
+            android:gravity="center"
+            android:background="@android:color/transparent"
+            android:textColor="#F06292"/>
+
+    </LinearLayout>
+
+
+
+</RelativeLayout>

@@ -1,20 +1,68 @@
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
-    android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
-    android:paddingRight="@dimen/activity_horizontal_margin"
-    android:paddingTop="@dimen/activity_vertical_margin"
-    android:paddingBottom="@dimen/activity_vertical_margin" tools:context=".ModernArtActivity">
+    android:layout_height="match_parent" android:paddingLeft="2dp"
+    android:paddingRight="2dp"
+    android:paddingTop="2dp"
+    android:paddingBottom="2dp" tools:context=".ModernArtActivity"
+    android:background="#000000">
 
-    <TextView android:text="@string/hello_world" android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:id="@+id/textView" />
+    <ImageView android:layout_width="160dp"
+        android:layout_height="235dp"
+        android:id="@+id/deep_pink"
+        android:src="#FF1493"
+        android:layout_marginBottom="2dp"
+        android:layout_marginRight="2dp"
+        />
 
-    <ViewFlipper
+    <ImageView android:layout_width="160dp"
+        android:layout_height="235dp"
+        android:id="@+id/royal_blue"
+        android:src="#4169E1"
+        android:layout_below="@+id/deep_pink"
+        android:layout_marginTop="2dp"
+        android:layout_marginRight="2dp"
+        android:layout_marginBottom="2dp"
+        />
+
+    <ImageView android:layout_width="214dp"
+        android:layout_height="155dp"
+        android:id="@+id/gold"
+        android:src="#FFD700"
+        android:layout_toRightOf="@+id/deep_pink"
+        android:layout_marginLeft="2dp"
+        android:layout_marginBottom="2dp"
+        />
+
+    <ImageView android:layout_width="214dp"
+        android:layout_height="155dp"
+        android:id="@+id/white_smoke"
+        android:src="#F5F5F5"
+        android:layout_below="@+id/gold"
+        android:layout_toRightOf="@+id/deep_pink"
+        android:layout_marginLeft="2dp"
+        android:layout_marginTop="2dp"
+        android:layout_marginBottom="2dp"
+        />
+
+    <ImageView android:layout_width="214dp"
+        android:layout_height="156dp"
+        android:id="@+id/dark_red"
+        android:src="#8B0000"
+        android:layout_below="@+id/white_smoke"
+        android:layout_toRightOf="@+id/deep_pink"
+        android:layout_marginLeft="2dp"
+        android:layout_marginTop="2dp"
+        />
+
+    <SeekBar
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:id="@+id/viewFlipper"
+        android:id="@+id/seekBar"
         android:layout_alignParentBottom="true"
         android:layout_alignParentLeft="true"
-        android:layout_alignParentStart="true" />
+        android:layout_alignParentStart="true"
+        android:thumbTint="#FF1493"
+        android:progressTint="#FF1493"/>
+
 
 </RelativeLayout>

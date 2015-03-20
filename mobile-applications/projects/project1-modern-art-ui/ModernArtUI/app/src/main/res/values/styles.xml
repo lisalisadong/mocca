@@ -5,4 +5,10 @@
         <!-- Customize your theme here. -->
     </style>
 
+    <style name="MyDialog" parent="@android:style/Theme.Dialog">
+        <item name="android:background">@color/slate_blue</item>
+        <item name="android:gravity">center</item>
+
+    </style>
+
 </resources>

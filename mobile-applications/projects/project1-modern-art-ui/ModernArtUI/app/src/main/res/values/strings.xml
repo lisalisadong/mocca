@@ -2,5 +2,7 @@
     <string name="app_name">Modern Art UI</string>
 
     <string name="hello_world">Hello world!</string>
-    <string name="action_settings">Settings</string>
+    <string name="action_more_info">More Information</string>
+    <string name="info1">Inspired by the works of Modern Art masters such as Piet Mondrian and Ben Nicholson.</string>
+    <string name="info2">Click below to learn more!</string>
 </resources>

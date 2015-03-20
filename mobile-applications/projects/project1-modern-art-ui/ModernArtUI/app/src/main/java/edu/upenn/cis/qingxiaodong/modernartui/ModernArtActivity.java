@@ -1,19 +1,28 @@
 package edu.upenn.cis.qingxiaodong.modernartui;
 
-import android.support.v7.app.ActionBarActivity;
+import android.app.Dialog;
+import android.app.DialogFragment;
+import android.content.Intent;
+import android.net.Uri;
 import android.os.Bundle;
+import android.support.v7.app.ActionBarActivity;
 import android.view.Menu;
 import android.view.MenuItem;
+import android.view.View;
+import android.view.Window;
+import android.widget.Button;
 
 
 public class ModernArtActivity extends ActionBarActivity {
+
+    private DialogFragment mDialog;
+    static private final String URL = "http://www.moma.org";
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_modern_art);
     }
-
 
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {
@@ -30,7 +39,27 @@ public class ModernArtActivity extends ActionBarActivity {
         int id = item.getItemId();
 
         //noinspection SimplifiableIfStatement
-        if (id == R.id.action_settings) {
+        if (id == R.id.action_more_info) {
+            final Dialog dialog = new Dialog(ModernArtActivity.this);
+            dialog.requestWindowFeature(Window.FEATURE_NO_TITLE);
+            dialog.setContentView(R.layout.dialog);
+            dialog.show();
+            Button nButton = (Button) dialog.findViewById(R.id.nButton);
+            nButton.setOnClickListener(new View.OnClickListener() {
+                @Override
+                public void onClick(View v) {
+                    dialog.dismiss();
+                }
+            });
+
+            Button pButton = (Button) dialog.findViewById(R.id.pButton);
+            pButton.setOnClickListener(new View.OnClickListener() {
+                @Override
+                public void onClick(View v) {
+                    Intent newIntent = new Intent(Intent.ACTION_VIEW, Uri.parse(URL));
+                    startActivity(newIntent);
+                }
+            });
             return true;
         }
 
