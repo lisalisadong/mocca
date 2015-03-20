@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent" android:layout_height="match_parent"
-    android:background="@color/slate_blue">
+    android:background="@color/theme_color">
 
     <TextView
         android:id="@+id/info1"
@@ -44,7 +44,7 @@
             android:layout_below="@+id/info2"
             android:gravity="center"
             android:background="@android:color/transparent"
-            android:textColor="#F06292"/>
+            android:textColor="#FF4081"/>
 
         <Button
             android:id="@+id/pButton"
@@ -55,7 +55,7 @@
             android:layout_below="@+id/info2"
             android:gravity="center"
             android:background="@android:color/transparent"
-            android:textColor="#F06292"/>
+            android:textColor="#FF4081"/>
 
     </LinearLayout>
 

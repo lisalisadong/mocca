@@ -12,12 +12,12 @@
     <!-- ActionBar styles -->
     <style name="MyActionBar"
         parent="@style/Widget.AppCompat.Light.ActionBar.Solid.Inverse">
-        <item name="android:background">@color/slate_blue</item>
+        <item name="android:background">@color/theme_color</item>
 
         <!-- Support library compatibility -->
-        <item name="background">@color/slate_blue</item>
+        <item name="background">@color/theme_color</item>
     </style>
 
-    <color name="slate_blue">#6A5ACD</color>
+    <color name="theme_color">#483D8B</color>
 
 </resources>

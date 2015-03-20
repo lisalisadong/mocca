@@ -8,17 +8,17 @@
 
     <ImageView android:layout_width="160dp"
         android:layout_height="235dp"
-        android:id="@+id/deep_pink"
-        android:src="#FF1493"
+        android:id="@+id/color1"
+        android:background="#E91E63"
         android:layout_marginBottom="2dp"
         android:layout_marginRight="2dp"
         />
 
     <ImageView android:layout_width="160dp"
         android:layout_height="235dp"
-        android:id="@+id/royal_blue"
-        android:src="#4169E1"
-        android:layout_below="@+id/deep_pink"
+        android:id="@+id/color2"
+        android:background="#3F51B5"
+        android:layout_below="@+id/color1"
         android:layout_marginTop="2dp"
         android:layout_marginRight="2dp"
         android:layout_marginBottom="2dp"
@@ -26,19 +26,19 @@
 
     <ImageView android:layout_width="214dp"
         android:layout_height="155dp"
-        android:id="@+id/gold"
-        android:src="#FFD700"
-        android:layout_toRightOf="@+id/deep_pink"
+        android:id="@+id/color3"
+        android:background="#FFEB3B"
+        android:layout_toRightOf="@+id/color1"
         android:layout_marginLeft="2dp"
         android:layout_marginBottom="2dp"
         />
 
     <ImageView android:layout_width="214dp"
         android:layout_height="155dp"
-        android:id="@+id/white_smoke"
-        android:src="#F5F5F5"
-        android:layout_below="@+id/gold"
-        android:layout_toRightOf="@+id/deep_pink"
+        android:id="@+id/color4"
+        android:background="#F5F5F5"
+        android:layout_below="@+id/color3"
+        android:layout_toRightOf="@+id/color1"
         android:layout_marginLeft="2dp"
         android:layout_marginTop="2dp"
         android:layout_marginBottom="2dp"
@@ -46,10 +46,10 @@
 
     <ImageView android:layout_width="214dp"
         android:layout_height="156dp"
-        android:id="@+id/dark_red"
-        android:src="#8B0000"
-        android:layout_below="@+id/white_smoke"
-        android:layout_toRightOf="@+id/deep_pink"
+        android:id="@+id/color5"
+        android:background="#B71C1C"
+        android:layout_below="@+id/color4"
+        android:layout_toRightOf="@+id/color1"
         android:layout_marginLeft="2dp"
         android:layout_marginTop="2dp"
         />
@@ -61,8 +61,8 @@
         android:layout_alignParentBottom="true"
         android:layout_alignParentLeft="true"
         android:layout_alignParentStart="true"
-        android:thumbTint="#FF1493"
-        android:progressTint="#FF1493"/>
+        android:thumbTint="#E91E63"
+        android:progressTint="#E91E63"/>
 
 
 </RelativeLayout>
