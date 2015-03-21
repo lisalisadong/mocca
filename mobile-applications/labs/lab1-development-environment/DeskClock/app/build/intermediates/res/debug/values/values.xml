@@ -1,0 +1,1755 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:ns1="urn:oasis:names:tc:xliff:document:1.2">
+    <!-- From: file:/Users/QingxiaoDong/GitHub/mocca/mobile-applications/labs/lab1/DeskClock/app/src/main/res/values/strings.xml -->
+    <eat-comment/>
+    <string-array name="alarm_set">
+        <item>Alarm set for less than 1 minute from now.</item>
+        <item>Alarm set for <ns1:g example="2 days" id="DAYS">%1$s</ns1:g> from now.</item>
+        <item>Alarm set for <ns1:g example="2 hours" id="HOURS">%2$s</ns1:g> from now.</item>
+        <item>Alarm set for <ns1:g example="2 days" id="DAYS">%1$s</ns1:g> and <ns1:g example="2 hours" id="HOURS">%2$s</ns1:g> from now.</item>
+        <item>Alarm set for <ns1:g example="2 minutes" id="MINUTES">%3$s</ns1:g> from now.</item>
+        <item>Alarm set for <ns1:g example="2 days" id="DAYS">%1$s</ns1:g> and <ns1:g example="2 minutes" id="MINUTES">%3$s</ns1:g> from now.</item>
+        <item>Alarm set for <ns1:g example="2 hours" id="HOURS">%2$s</ns1:g> and <ns1:g example="2 minutes" id="MINUTES">%3$s</ns1:g> from now.</item>
+        <item>Alarm set for <ns1:g example="2 days" id="DAYS">%1$s</ns1:g>, <ns1:g example="2 hours" id="HOURS">%2$s</ns1:g>, and <ns1:g example="2 minutes" id="MINUTES">%3$s</ns1:g> from now.</item>
+    </string-array>
+    <string-array name="auto_silence_entries">
+      <item>5 minutes</item>
+      <item>10 minutes</item>
+      <item>15 minutes</item>
+      <item>20 minutes</item>
+      <item>25 minutes</item>
+      <item>30 minutes</item>
+      <item>Never</item>
+      </string-array>
+    <string-array name="auto_silence_values" translatable="false">
+      <item>5</item>
+      <item>10</item>
+      <item>15</item>
+      <item>20</item>
+      <item>25</item>
+      <item>30</item>
+      <item>-1</item> <!-- Off -->
+      </string-array>
+    <!-- From: file:/Users/QingxiaoDong/GitHub/mocca/mobile-applications/labs/lab1/DeskClock/app/src/main/res/values/array.xml -->
+    <eat-comment/>
+    <string-array name="cities_id" translatable="false">
+        <item>C1</item>
+        <item>C2</item>
+        <item>C3</item>
+        <item>C4</item>
+        <item>C5</item>
+        <item>C6</item>
+        <item>C7</item>
+        <item>C8</item>
+        <item>C9</item>
+        <item>C10</item>
+        <item>C11</item>
+        <item>C12</item>
+        <item>C13</item>
+        <item>C14</item>
+        <item>C15</item>
+        <item>C16</item>
+        <item>C17</item>
+        <item>C18</item>
+        <item>C19</item>
+        <item>C20</item>
+        <item>C21</item>
+        <item>C22</item>
+        <item>C23</item>
+        <item>C24</item>
+        <item>C25</item>
+        <item>C26</item>
+        <item>C27</item>
+        <item>C28</item>
+        <item>C29</item>
+        <item>C0</item>
+        <item>C31</item>
+        <item>C32</item>
+        <item>C33</item>
+        <item>C34</item>
+        <item>C35</item>
+        <item>C36</item>
+        <item>C37</item>
+        <item>C38</item>
+        <item>C39</item>
+        <item>C40</item>
+        <item>C41</item>
+        <item>C42</item>
+        <item>C43</item>
+        <item>C44</item>
+        <item>C45</item>
+        <item>C46</item>
+        <item>C47</item>
+        <item>C48</item>
+        <item>C49</item>
+        <item>C50</item>
+        <item>C51</item>
+        <item>C52</item>
+        <item>C53</item>
+        <item>C54</item>
+        <item>C55</item>
+        <item>C56</item>
+        <item>C57</item>
+        <item>C58</item>
+        <item>C59</item>
+        <item>C60</item>
+        <item>C61</item>
+        <item>C62</item>
+        <item>C63</item>
+        <item>C64</item>
+        <item>C65</item>
+        <item>C66</item>
+        <item>C67</item>
+        <item>C68</item>
+        <item>C69</item>
+        <item>C70</item>
+        <item>C71</item>
+        <item>C72</item>
+        <item>C73</item>
+        <item>C74</item>
+        <item>C75</item>
+        <item>C76</item>
+        <item>C77</item>
+        <item>C78</item>
+        <item>C79</item>
+        <item>C80</item>
+        <item>C81</item>
+        <item>C82</item>
+        <item>C83</item>
+        <item>C84</item>
+        <item>C85</item>
+        <item>C86</item>
+        <item>C87</item>
+        <item>C88</item>
+        <item>C89</item>
+        <item>C90</item>
+        <item>C91</item>
+        <item>C92</item>
+        <item>C93</item>
+        <item>C94</item>
+        <item>C95</item>
+        <item>C96</item>
+        <item>C97</item>
+        <item>C98</item>
+        <item>C99</item>
+        <item>C100</item>
+        <item>C101</item>
+        <item>C102</item>
+        <item>C103</item>
+        <item>C104</item>
+        <item>C105</item>
+        <item>C106</item>
+        <item>C107</item>
+        <item>C108</item>
+        <item>C109</item>
+        <item>C110</item>
+        <item>C111</item>
+        <item>C112</item>
+        <item>C113</item>
+        <item>C114</item>
+        <item>C115</item>
+        <item>C0</item>
+        <item>C117</item>
+        <item>C118</item>
+        <item>C119</item>
+        <item>C120</item>
+        <item>C121</item>
+        <item>C122</item>
+        <item>C123</item>
+        <item>C124</item>
+        <item>C125</item>
+        <item>C126</item>
+        <item>C127</item>
+        <item>C128</item>
+        <item>C0</item>
+        <item>C130</item>
+        <item>C131</item>
+        <item>C132</item>
+        <item>C133</item>
+        <item>C134</item>
+        <item>C135</item>
+        <item>C136</item>
+        <item>C137</item>
+        <item>C138</item>
+        <item>C139</item>
+        <item>C140</item>
+        <item>C141</item>
+        <item>C142</item>
+        <item>C143</item>
+        <item>C144</item>
+        <item>C145</item>
+        <item>C146</item>
+        <item>C147</item>
+        <item>C148</item>
+        <item>C149</item>
+        <item>C150</item>
+        <item>C151</item>
+        <item>C152</item>
+        <item>C153</item>
+        <item>C154</item>
+        <item>C155</item>
+        <item>C156</item>
+        <item>C157</item>
+        <item>C158</item>
+        <item>C159</item>
+        <item>C160</item>
+        <item>C161</item>
+        <item>C162</item>
+        <item>C163</item>
+        <item>C164</item>
+        <item>C165</item>
+        <item>C166</item>
+        <item>C167</item>
+        <item>C168</item>
+        <item>C169</item>
+        <item>C170</item>
+        <item>C171</item>
+        <item>C172</item>
+        <item>C173</item>
+        <item>C174</item>
+        <item>C175</item>
+        <item>C176</item>
+        <item>C177</item>
+        <item>C178</item>
+        <item>C179</item>
+        <item>C180</item>
+        <item>C181</item>
+        <item>C182</item>
+        <item>C183</item>
+        <item>C184</item>
+        <item>C185</item>
+        <item>C186</item>
+        <item>C187</item>
+        <item>C188</item>
+        <item>C189</item>
+        <item>C190</item>
+        <item>C191</item>
+        <item>C192</item>
+        <item>C193</item>
+        <item>C194</item>
+        <item>C195</item>
+        <item>C196</item>
+        <item>C197</item>
+        <item>C198</item>
+        <item>C199</item>
+        <item>C200</item>
+        <item>C201</item>
+        <item>C202</item>
+        <item>C203</item>
+        <item>C204</item>
+        <item>C205</item>
+        <item>C206</item>
+        <item>C207</item>
+        <item>C208</item>
+        <item>C209</item>
+        <item>C210</item>
+        <item>C211</item>
+        <item>C212</item>
+        <item>C213</item>
+        <item>C214</item>
+        <item>C215</item>
+        <item>C216</item>
+        <item>C217</item>
+        <item>C218</item>
+        <item>C219</item>
+        <item>C220</item>
+        <item>C221</item>
+        <item>C222</item>
+        <item>C223</item>
+        <item>C224</item>
+        <item>C225</item>
+        <item>C226</item>
+        <item>C227</item>
+        <item>C228</item>
+        <item>C229</item>
+        <item>C230</item>
+        <item>C231</item>
+        <item>C232</item>
+        <item>C233</item>
+        <item>C234</item>
+        <item>C235</item>
+        <item>C236</item>
+        <item>C237</item>
+        <item>C238</item>
+        <item>C239</item>
+        <item>C240</item>
+        <item>C241</item>
+        <item>C242</item>
+        <item>C243</item>
+        <item>C244</item>
+        <item>C245</item>
+        <item>C246</item>
+        <item>C247</item>
+        <item>C248</item>
+        <item>C249</item>
+        <item>C250</item>
+        <item>C251</item>
+        <item>C252</item>
+        <item>C253</item>
+        <item>C254</item>
+        <item>C255</item>
+        <item>C256</item>
+        <item>C257</item>
+        <item>C258</item>
+        <item>C259</item>
+        <item>C260</item>
+        <item>C261</item>
+        <item>C262</item>
+        <item>C263</item>
+        <item>C264</item>
+        <item>C265</item>
+        <item>C266</item>
+        <item>C267</item>
+        <item>C268</item>
+        <item>C269</item>
+        <item>C270</item>
+        <item>C271</item>
+        <item>C272</item>
+        <item>C273</item>
+        <item>C274</item>
+        <item>C275</item>
+        <item>C276</item>
+        <item>C277</item>
+        <item>C278</item>
+        <item>C279</item>
+        <item>C280</item>
+    </string-array>
+    <string-array name="cities_names"><item>Abidjan</item>
+        <item>Accra</item>
+        <item>Addis Ababa</item>
+        <item>Algiers</item>
+        <item>Blantyre</item>
+        <item>Brazzaville</item>
+        <item>Cairo</item>
+        <item>Casablanca</item>
+        <item>Conakry</item>
+        <item>Dakar</item>
+        <item>Dar es Salaam</item>
+        <item>Djibouti</item>
+        <item>Freetown</item>
+        <item>Gaborone</item>
+        <item>Harare</item>
+        <item>Johannesburg</item>
+        <item>Kampala</item>
+        <item>Khartoum</item>
+        <item>Kigali</item>
+        <item>Kinshasa</item>
+        <item>Lagos</item>
+        <item>Maseru</item>
+        <item>Mogadishu</item>
+        <item>Nairobi</item>
+        <item>São Tomé</item>
+        <item>Timbuktu</item>
+        <item>Tripoli</item>
+        <item>Tunis</item>
+        <item>Anchorage</item>
+        <item>Mendoza</item>
+        <item>Aruba</item>
+        <item>Asunción</item>
+        <item>Barbados</item>
+        <item>Belize</item>
+        <item>Bogotá</item>
+        <item>Buenos Aires</item>
+        <item>Cancun</item>
+        <item>Caracas</item>
+        <item>Cayman</item>
+        <item>Chicago</item>
+        <item>Costa Rica</item>
+        <item>Curaçao</item>
+        <item>Dawson Creek</item>
+        <item>Denver</item>
+        <item>Detroit</item>
+        <item>Dominica</item>
+        <item>Edmonton</item>
+        <item>El Salvador</item>
+        <item>Fortaleza</item>
+        <item>Grand Turk</item>
+        <item>Grenada</item>
+        <item>Guatemala</item>
+        <item>Guyana</item>
+        <item>Halifax</item>
+        <item>Havana</item>
+        <item>Indianapolis</item>
+        <item>Knox</item>
+        <item>Marengo</item>
+        <item>Petersburg</item>
+        <item>Tell City</item>
+        <item>Vevay</item>
+        <item>Vincennes</item>
+        <item>Winamac</item>
+        <item>Kingston</item>
+        <item>Nuestra Señora de La Paz</item>
+        <item>Lima</item>
+        <item>Los Angeles</item>
+        <item>Louisville</item>
+        <item>Managua</item>
+        <item>Martinique</item>
+        <item>Mendoza</item>
+        <item>Metlakatla</item>
+        <item>Mexico City</item>
+        <item>Monterrey</item>
+        <item>Montevideo</item>
+        <item>Montreal</item>
+        <item>Nassau</item>
+        <item>New York</item>
+        <item>Beulah</item>
+        <item>Center</item>
+        <item>New Salem</item>
+        <item>Panama</item>
+        <item>Phoenix</item>
+        <item>Port of Spain</item>
+        <item>Port-au-Prince</item>
+        <item>Puerto Rico</item>
+        <item>Santo Domingo</item>
+        <item>São Paulo</item>
+        <item>St. Johns</item>
+        <item>St. Kitts</item>
+        <item>St. Lucia</item>
+        <item>St. Thomas</item>
+        <item>Tijuana</item>
+        <item>Toronto</item>
+        <item>Vancouver</item>
+        <item>Winnipeg</item>
+        <item>South Pole</item>
+        <item>Longyearbyen</item>
+        <item>Almaty</item>
+        <item>Amman</item>
+        <item>Anadyr</item>
+        <item>Aqtau</item>
+        <item>Baghdad</item>
+        <item>Bahrain</item>
+        <item>Baku</item>
+        <item>Bangkok</item>
+        <item>Beirut</item>
+        <item>Calcutta</item>
+        <item>Damascus</item>
+        <item>Dhaka</item>
+        <item>Dubai</item>
+        <item>Gaza</item>
+        <item>Hebron</item>
+        <item>Ho Chi Minh</item>
+        <item>Hong Kong</item>
+        <item>Istanbul</item>
+        <item>Jakarta</item>
+        <item>Jerusalem</item>
+        <item>Kabul</item>
+        <item>Karachi</item>
+        <item>Kathmandu</item>
+        <item>Kuala Lumpur</item>
+        <item>Kuwait</item>
+        <item>Macau</item>
+        <item>Manila</item>
+        <item>Muscat</item>
+        <item>Phnom Penh</item>
+        <item>Pyongyang</item>
+        <item>Qatar</item>
+        <item>Rangoon</item>
+        <item>Riyadh</item>
+        <item>Saigon</item>
+        <item>Seoul</item>
+        <item>Shanghai</item>
+        <item>Singapore</item>
+        <item>Taipei</item>
+        <item>Tehran</item>
+        <item>Tel Aviv</item>
+        <item>Tokyo</item>
+        <item>Ulaanbaatar</item>
+        <item>Bermuda</item>
+        <item>Canary</item>
+        <item>Cape Verde</item>
+        <item>Reykjavik</item>
+        <item>Stanley</item>
+        <item>Adelaide</item>
+        <item>Brisbane</item>
+        <item>Canberra</item>
+        <item>Darwin</item>
+        <item>Melbourne</item>
+        <item>New South Wales</item>
+        <item>Perth</item>
+        <item>Queensland</item>
+        <item>Sydney</item>
+        <item>Victoria</item>
+        <item>Newfoundland</item>
+        <item>Saskatchewan</item>
+        <item>Easter Island</item>
+        <item>Amsterdam</item>
+        <item>Andorra</item>
+        <item>Athens</item>
+        <item>Belfast</item>
+        <item>Belgrade</item>
+        <item>Berlin</item>
+        <item>Bratislava</item>
+        <item>Brussels</item>
+        <item>Bucharest</item>
+        <item>Budapest</item>
+        <item>Chisinau</item>
+        <item>Copenhagen</item>
+        <item>Dublin</item>
+        <item>Gibraltar</item>
+        <item>Helsinki</item>
+        <item>Isle of Man</item>
+        <item>Istanbul</item>
+        <item>Kiev</item>
+        <item>Lisbon</item>
+        <item>London</item>
+        <item>Luxembourg</item>
+        <item>Madrid</item>
+        <item>Malta</item>
+        <item>Minsk</item>
+        <item>Monaco</item>
+        <item>Moscow</item>
+        <item>Oslo</item>
+        <item>Paris</item>
+        <item>Prague</item>
+        <item>Riga</item>
+        <item>Rome</item>
+        <item>San Marino</item>
+        <item>Sarajevo</item>
+        <item>Simferopol</item>
+        <item>Skopje</item>
+        <item>Sofia</item>
+        <item>Stockholm</item>
+        <item>Tallinn</item>
+        <item>Vatican</item>
+        <item>Vienna</item>
+        <item>Vilnius</item>
+        <item>Warsaw</item>
+        <item>Zagreb</item>
+        <item>Zurich</item>
+        <item>Antananarivo</item>
+        <item>Maldives</item>
+        <item>Mauritius</item>
+        <item>Auckland</item>
+        <item>Fiji</item>
+        <item>Guam</item>
+        <item>Honolulu</item>
+        <item>Kiritimati</item>
+        <item>Noumea</item>
+        <item>Samoa</item>
+        <item>Tahiti</item>
+        <item>Antigua</item>
+        <item>Austin</item>
+        <item>Boston</item>
+        <item>Calgary</item>
+        <item>Columbus</item>
+        <item>Dallas</item>
+        <item>Knoxville</item>
+        <item>Memphis</item>
+        <item>Miami</item>
+        <item>Minneapolis</item>
+        <item>Ottawa</item>
+        <item>Philadelphia</item>
+        <item>Portland</item>
+        <item>San Diego</item>
+        <item>San Francisco</item>
+        <item>Salt Lake City</item>
+        <item>San Jose</item>
+        <item>San Salvador</item>
+        <item>Seattle</item>
+        <item>St. Louis</item>
+        <item>Washington D.C.</item>
+        <item>Houston</item>
+        <item>San Antonio</item>
+        <item>Jacksonville</item>
+        <item>Baltimore</item>
+        <item>Nashville</item>
+        <item>Milwaukee</item>
+        <item>Oklahoma City</item>
+        <item>Las Vegas</item>
+        <item>Albuquerque</item>
+        <item>Tucson</item>
+        <item>Sacramento</item>
+        <item>Atlanta</item>
+        <item>Cleveland</item>
+        <item>New Orleans</item>
+        <item>Tampa</item>
+        <item>Pittsburgh</item>
+        <item>Cincinnati</item>
+        <item>Mountain View</item>
+        <item>Reno</item>
+        <item>Black Rock City</item>
+        <item>Doha</item>
+        <item>Beijing</item>
+        <item>Mumbai</item>
+        <item>Delhi</item>
+        <item>Osaka</item>
+        <item>Lahore</item>
+        <item>Sana\'a</item>
+        <item>Barcelona</item>
+        <item>Munich</item>
+        <item>Milan</item>
+        <item>Frankfurt</item>
+        <item>Hanoi</item>
+        <item>Ankara</item>
+        <item>Bangalore</item>
+        <item>Brasília</item>
+        <item>Cape Town</item>
+        <item>Islamabad</item>
+        <item>Rio de Janeiro</item>
+        <item>Ann Arbor</item>
+        <item>Boulder</item>
+        <item>Cambridge</item>
+        <item>Kirkland</item>
+        <item>Madison</item>
+        <item>Guangzhou</item>
+        <item>Hyderabad</item>
+        <item>Reston</item>
+    </string-array>
+    <string-array name="cities_tz" translatable="false">
+        <item>Africa/Abidjan</item>
+        <item>Africa/Accra</item>
+        <item>Africa/Addis_Ababa</item>
+        <item>Africa/Algiers</item>
+        <item>Africa/Blantyre</item>
+        <item>Africa/Brazzaville</item>
+        <item>Africa/Cairo</item>
+        <item>Africa/Casablanca</item>
+        <item>Africa/Conakry</item>
+        <item>Africa/Dakar</item>
+        <item>Africa/Dar_es_Salaam</item>
+        <item>Africa/Djibouti</item>
+        <item>Africa/Freetown</item>
+        <item>Africa/Gaborone</item>
+        <item>Africa/Harare</item>
+        <item>Africa/Johannesburg</item>
+        <item>Africa/Kampala</item>
+        <item>Africa/Khartoum</item>
+        <item>Africa/Kigali</item>
+        <item>Africa/Kinshasa</item>
+        <item>Africa/Lagos</item>
+        <item>Africa/Maseru</item>
+        <item>Africa/Mogadishu</item>
+        <item>Africa/Nairobi</item>
+        <item>Africa/Sao_Tome</item>
+        <item>Africa/Timbuktu</item>
+        <item>Africa/Tripoli</item>
+        <item>Africa/Tunis</item>
+        <item>America/Anchorage</item>
+        <item>America/Argentina/Mendoza</item>
+        <item>America/Aruba</item>
+        <item>America/Asuncion</item>
+        <item>America/Barbados</item>
+        <item>America/Belize</item>
+        <item>America/Bogota</item>
+        <item>America/Buenos_Aires</item>
+        <item>America/Cancun</item>
+        <item>America/Caracas</item>
+        <item>America/Cayman</item>
+        <item>America/Chicago</item>
+        <item>America/Costa_Rica</item>
+        <item>America/Curacao</item>
+        <item>America/Dawson_Creek</item>
+        <item>America/Denver</item>
+        <item>America/Detroit</item>
+        <item>America/Dominica</item>
+        <item>America/Edmonton</item>
+        <item>America/El_Salvador</item>
+        <item>America/Fortaleza</item>
+        <item>America/Grand_Turk</item>
+        <item>America/Grenada</item>
+        <item>America/Guatemala</item>
+        <item>America/Guyana</item>
+        <item>America/Halifax</item>
+        <item>America/Havana</item>
+        <item>America/Indiana/Indianapolis</item>
+        <item>America/Indiana/Knox</item>
+        <item>America/Indiana/Marengo</item>
+        <item>America/Indiana/Petersburg</item>
+        <item>America/Indiana/Tell_City</item>
+        <item>America/Indiana/Vevay</item>
+        <item>America/Indiana/Vincennes</item>
+        <item>America/Indiana/Winamac</item>
+        <item>America/Jamaica</item>
+        <item>America/La_Paz</item>
+        <item>America/Lima</item>
+        <item>America/Los_Angeles</item>
+        <item>America/Louisville</item>
+        <item>America/Managua</item>
+        <item>America/Martinique</item>
+        <item>America/Mendoza</item>
+        <item>America/Metlakatla</item>
+        <item>America/Mexico_City</item>
+        <item>America/Monterrey</item>
+        <item>America/Montevideo</item>
+        <item>America/Montreal</item>
+        <item>America/Nassau</item>
+        <item>America/New_York</item>
+        <item>America/North_Dakota/Beulah</item>
+        <item>America/North_Dakota/Center</item>
+        <item>America/North_Dakota/New_Salem</item>
+        <item>America/Panama</item>
+        <item>America/Phoenix</item>
+        <item>America/Port_of_Spain</item>
+        <item>America/Port-au-Prince</item>
+        <item>America/Puerto_Rico</item>
+        <item>America/Santo_Domingo</item>
+        <item>America/Sao_Paulo</item>
+        <item>America/St_Johns</item>
+        <item>America/St_Kitts</item>
+        <item>America/St_Lucia</item>
+        <item>America/St_Thomas</item>
+        <item>America/Tijuana</item>
+        <item>America/Toronto</item>
+        <item>America/Vancouver</item>
+        <item>America/Winnipeg</item>
+        <item>Antarctica/South_Pole</item>
+        <item>Arctic/Longyearbyen</item>
+        <item>Asia/Almaty</item>
+        <item>Asia/Amman</item>
+        <item>Asia/Anadyr</item>
+        <item>Asia/Aqtau</item>
+        <item>Asia/Baghdad</item>
+        <item>Asia/Bahrain</item>
+        <item>Asia/Baku</item>
+        <item>Asia/Bangkok</item>
+        <item>Asia/Beirut</item>
+        <item>Asia/Calcutta</item>
+        <item>Asia/Damascus</item>
+        <item>Asia/Dhaka</item>
+        <item>Asia/Dubai</item>
+        <item>Asia/Gaza</item>
+        <item>Asia/Hebron</item>
+        <item>Asia/Ho_Chi_Minh</item>
+        <item>Asia/Hong_Kong</item>
+        <item>Asia/Istanbul</item>
+        <item>Asia/Jakarta</item>
+        <item>Asia/Jerusalem</item>
+        <item>Asia/Kabul</item>
+        <item>Asia/Karachi</item>
+        <item>Asia/Kathmandu</item>
+        <item>Asia/Kuala_Lumpur</item>
+        <item>Asia/Kuwait</item>
+        <item>Asia/Macau</item>
+        <item>Asia/Manila</item>
+        <item>Asia/Muscat</item>
+        <item>Asia/Phnom_Penh</item>
+        <item>Asia/Pyongyang</item>
+        <item>Asia/Qatar</item>
+        <item>Asia/Rangoon</item>
+        <item>Asia/Riyadh</item>
+        <item>Asia/Saigon</item>
+        <item>Asia/Seoul</item>
+        <item>Asia/Shanghai</item>
+        <item>Asia/Singapore</item>
+        <item>Asia/Taipei</item>
+        <item>Asia/Tehran</item>
+        <item>Asia/Tel_Aviv</item>
+        <item>Asia/Tokyo</item>
+        <item>Asia/Ulaanbaatar</item>
+        <item>Atlantic/Bermuda</item>
+        <item>Atlantic/Canary</item>
+        <item>Atlantic/Cape_Verde</item>
+        <item>Atlantic/Reykjavik</item>
+        <item>Atlantic/Stanley</item>
+        <item>Australia/Adelaide</item>
+        <item>Australia/Brisbane</item>
+        <item>Australia/Canberra</item>
+        <item>Australia/Darwin</item>
+        <item>Australia/Melbourne</item>
+        <item>Australia/NSW</item>
+        <item>Australia/Perth</item>
+        <item>Australia/Queensland</item>
+        <item>Australia/Sydney</item>
+        <item>Australia/Victoria</item>
+        <item>Canada/Newfoundland</item>
+        <item>Canada/Saskatchewan</item>
+        <item>Chile/EasterIsland</item>
+        <item>Europe/Amsterdam</item>
+        <item>Europe/Andorra</item>
+        <item>Europe/Athens</item>
+        <item>Europe/Belfast</item>
+        <item>Europe/Belgrade</item>
+        <item>Europe/Berlin</item>
+        <item>Europe/Bratislava</item>
+        <item>Europe/Brussels</item>
+        <item>Europe/Bucharest</item>
+        <item>Europe/Budapest</item>
+        <item>Europe/Chisinau</item>
+        <item>Europe/Copenhagen</item>
+        <item>Europe/Dublin</item>
+        <item>Europe/Gibraltar</item>
+        <item>Europe/Helsinki</item>
+        <item>Europe/Isle_of_Man</item>
+        <item>Europe/Istanbul</item>
+        <item>Europe/Kiev</item>
+        <item>Europe/Lisbon</item>
+        <item>Europe/London</item>
+        <item>Europe/Luxembourg</item>
+        <item>Europe/Madrid</item>
+        <item>Europe/Malta</item>
+        <item>Europe/Minsk</item>
+        <item>Europe/Monaco</item>
+        <item>Europe/Moscow</item>
+        <item>Europe/Oslo</item>
+        <item>Europe/Paris</item>
+        <item>Europe/Prague</item>
+        <item>Europe/Riga</item>
+        <item>Europe/Rome</item>
+        <item>Europe/San_Marino</item>
+        <item>Europe/Sarajevo</item>
+        <item>Europe/Simferopol</item>
+        <item>Europe/Skopje</item>
+        <item>Europe/Sofia</item>
+        <item>Europe/Stockholm</item>
+        <item>Europe/Tallinn</item>
+        <item>Europe/Vatican</item>
+        <item>Europe/Vienna</item>
+        <item>Europe/Vilnius</item>
+        <item>Europe/Warsaw</item>
+        <item>Europe/Zagreb</item>
+        <item>Europe/Zurich</item>
+        <item>Indian/Antananarivo</item>
+        <item>Indian/Maldives</item>
+        <item>Indian/Mauritius</item>
+        <item>Pacific/Auckland</item>
+        <item>Pacific/Fiji</item>
+        <item>Pacific/Guam</item>
+        <item>Pacific/Honolulu</item>
+        <item>Pacific/Kiritimati</item>
+        <item>Pacific/Noumea</item>
+        <item>Pacific/Samoa</item>
+        <item>Pacific/Tahiti</item>
+        <item>America/Antigua</item>
+        <item>America/Chicago</item>
+        <item>America/New_York</item>
+        <item>America/Denver</item>
+        <item>America/New_York</item>
+        <item>America/Chicago</item>
+        <item>America/New_York</item>
+        <item>America/Chicago</item>
+        <item>America/New_York</item>
+        <item>America/Chicago</item>
+        <item>America/New_York</item>
+        <item>America/New_York</item>
+        <item>America/Los_Angeles</item>
+        <item>America/Los_Angeles</item>
+        <item>America/Los_Angeles</item>
+        <item>America/Denver</item>
+        <item>America/Los_Angeles</item>
+        <item>America/Guatemala</item>
+        <item>America/Los_Angeles</item>
+        <item>America/Chicago</item>
+        <item>America/New_York</item>
+        <item>America/Chicago</item>
+        <item>America/Chicago</item>
+        <item>America/New_York</item>
+        <item>America/New_York</item>
+        <item>America/Chicago</item>
+        <item>America/Chicago</item>
+        <item>America/Chicago</item>
+        <item>America/Los_Angeles</item>
+        <item>America/Denver</item>
+        <item>MST</item>
+        <item>America/Los_Angeles</item>
+        <item>America/New_York</item>
+        <item>America/New_York</item>
+        <item>America/Chicago</item>
+        <item>America/New_York</item>
+        <item>America/New_York</item>
+        <item>America/New_York</item>
+        <item>America/Los_Angeles</item>
+        <item>America/Los_Angeles</item>
+        <item>America/Los_Angeles</item>
+        <item>Asia/Riyadh</item>
+        <item>Asia/Shanghai</item>
+        <item>Asia/Kolkata</item>
+        <item>Asia/Kolkata</item>
+        <item>Asia/Tokyo</item>
+        <item>Asia/Karachi</item>
+        <item>Asia/Riyadh</item>
+        <item>Europe/Madrid</item>
+        <item>Europe/Berlin</item>
+        <item>Europe/Rome</item>
+        <item>Europe/Berlin</item>
+        <item>Asia/Bangkok</item>
+        <item>Europe/Istanbul</item>
+        <item>Asia/Kolkata</item>
+        <item>America/Sao_Paulo</item>
+        <item>Africa/Johannesburg</item>
+        <item>Asia/Karachi</item>
+        <item>America/Sao_Paulo</item>
+        <item>America/Detroit</item>
+        <item>America/Denver</item>
+        <item>America/New_York</item>
+        <item>America/Los_Angeles</item>
+        <item>America/Chicago</item>
+        <item>Asia/Shanghai</item>
+        <item>Asia/Kolkata</item>
+        <item>America/New_York</item>
+    </string-array>
+    <!-- From: file:/Users/QingxiaoDong/GitHub/mocca/mobile-applications/labs/lab1/DeskClock/app/src/main/res/values/strings.xml -->
+    <eat-comment/>
+    <string-array name="clock_style_entries">
+      <item>Analog</item>
+      <item>Digital</item>
+    </string-array>
+    <string-array name="clock_style_values" translatable="false">
+      <item>analog</item>
+      <item>digital</item>
+    </string-array>
+    <!-- From: file:/Users/QingxiaoDong/GitHub/mocca/mobile-applications/labs/lab1/DeskClock/app/src/main/res/values/array.xml -->
+    <eat-comment/>
+    <array name="dismiss_descriptions">
+        <item>@string/alarm_alert_dismiss_text</item>
+        <item>@null</item>
+        <item>@null</item>
+        <item>@null</item>
+    </array>
+    <array name="dismiss_direction_descriptions">
+        <item>@string/description_direction_right</item>
+        <item>@null</item>
+        <item>@null</item>
+        <item>@null</item>
+    </array>
+    <array name="dismiss_drawables">
+        <item>@drawable/ic_alarm_alert_dismiss</item>
+        <item>@null</item>
+        <item>@null</item>
+        <item>@null</item>
+    </array>
+    <array name="snooze_dismiss_descriptions">
+        <item>@string/alarm_alert_dismiss_text</item>
+        <item>@null</item>
+        <item>@string/alarm_alert_snooze_text</item>
+        <item>@null</item>
+    </array>
+    <array name="snooze_dismiss_direction_descriptions">
+        <item>@string/description_direction_right</item>
+        <item>@null</item>
+        <item>@string/description_direction_left</item>
+        <item>@null</item>
+    </array>
+    <array name="snooze_dismiss_drawables">
+        <item>@drawable/ic_alarm_alert_dismiss</item>
+        <item>@null</item>
+        <item>@drawable/ic_alarm_alert_snooze</item>
+        <item>@null</item>
+    </array>
+    <!-- From: file:/Users/QingxiaoDong/GitHub/mocca/mobile-applications/labs/lab1/DeskClock/app/src/main/res/values/strings.xml -->
+    <eat-comment/>
+    <string-array name="sw_share_strings" translatable="true">
+        <item>You\'re quite the speed demon.</item>
+        <item>Enjoy the fruits of your labor.</item>
+        <item>Androids are known to be fast, but not as fast as you!</item>
+        <item>Phew.</item>
+        <item>L33t times.</item>
+        <item>Such prodigious velocity.</item>
+        <item>Let\'s do the time warp again.</item>
+        <item>Just a jump to the left.</item>
+        <item>You have a palette for haste.</item>
+        <item>Photonic velocity.</item>
+    </string-array>
+    <string-array name="timer_notifications">
+        <item>Less than a minute remaining</item>
+        <item><ns1:g example="2 hours" id="HOURS">%1$s</ns1:g> remaining</item>
+        <item><ns1:g example="2 minutes" id="MINUTES">%2$s</ns1:g> remaining</item>
+        <item><ns1:g example="2 hours" id="HOURS">%1$s</ns1:g> <ns1:g example="2 minutes" id="MINUTES">%2$s</ns1:g> remaining</item>
+    </string-array>
+    <string-array name="timezone_labels">
+        <item>"Marshall Islands"</item>
+        <item>"Midway Island"</item>
+        <item>"Hawaii"</item>
+        <item>"Alaska"</item>
+        <item>"Pacific Time"</item>
+        <item>"Tijuana"</item>
+        <item>"Arizona"</item>
+        <item>"Chihuahua"</item>
+        <item>"Mountain Time"</item>
+        <item>"Central America"</item>
+        <item>"Central Time"</item>
+        <item>"Mexico City"</item>
+        <item>"Saskatchewan"</item>
+        <item>"Bogota"</item>
+        <item>"Eastern Time"</item>
+        <item>"Venezuela"</item>
+        <item>"Atlantic Time (Barbados)"</item>
+        <item>"Atlantic Time (Canada)"</item>
+        <item>"Manaus"</item>
+        <item>"Santiago"</item>
+        <item>"Newfoundland"</item>
+        <item>"Brasilia"</item>
+        <item>"Buenos Aires"</item>
+        <item>"Greenland"</item>
+        <item>"Montevideo"</item>
+        <item>"Mid-Atlantic"</item>
+        <item>"Azores"</item>
+        <item>"Cape Verde Islands"</item>
+        <item>"Casablanca"</item>
+        <item>"London, Dublin"</item>
+        <item>"Amsterdam, Berlin"</item>
+        <item>"Belgrade"</item>
+        <item>"Brussels"</item>
+        <item>"Sarajevo"</item>
+        <item>"Windhoek"</item>
+        <item>"W. Africa Time"</item>
+        <item>"Amman, Jordan"</item>
+        <item>"Athens, Istanbul"</item>
+        <item>"Beirut, Lebanon"</item>
+        <item>"Cairo"</item>
+        <item>"Helsinki"</item>
+        <item>"Jerusalem"</item>
+        <item>"Minsk"</item>
+        <item>"Harare"</item>
+        <item>"Baghdad"</item>
+        <item>"Moscow"</item>
+        <item>"Kuwait"</item>
+        <item>"Nairobi"</item>
+        <item>"Tehran"</item>
+        <item>"Baku"</item>
+        <item>"Tbilisi"</item>
+        <item>"Yerevan"</item>
+        <item>"Dubai"</item>
+        <item>"Kabul"</item>
+        <item>"Islamabad, Karachi"</item>
+        <item>"Ural'sk"</item>
+        <item>"Yekaterinburg"</item>
+        <item>"Kolkata"</item>
+        <item>"Sri Lanka"</item>
+        <item>"Kathmandu"</item>
+        <item>"Astana"</item>
+        <item>"Yangon"</item>
+        <item>"Krasnoyarsk"</item>
+        <item>"Bangkok"</item>
+        <item>"Beijing"</item>
+        <item>"Hong Kong"</item>
+        <item>"Irkutsk"</item>
+        <item>"Kuala Lumpur"</item>
+        <item>"Perth"</item>
+        <item>"Taipei"</item>
+        <item>"Seoul"</item>
+        <item>"Tokyo, Osaka"</item>
+        <item>"Yakutsk"</item>
+        <item>"Adelaide"</item>
+        <item>"Darwin"</item>
+        <item>"Brisbane"</item>
+        <item>"Hobart"</item>
+        <item>"Sydney, Canberra"</item>
+        <item>"Vladivostok"</item>
+        <item>"Guam"</item>
+        <item>"Magadan"</item>
+        <item>"Auckland"</item>
+        <item>"Fiji"</item>
+        <item>"Tonga"</item>
+    </string-array>
+    <string-array name="timezone_values" translatable="false">
+        <item>"Pacific/Majuro"</item>
+        <item>"Pacific/Midway"</item>
+        <item>"Pacific/Honolulu"</item>
+        <item>"America/Anchorage"</item>
+        <item>"America/Los_Angeles"</item>
+        <item>"America/Tijuana"</item>
+        <item>"America/Phoenix"</item>
+        <item>"America/Chihuahua"</item>
+        <item>"America/Denver"</item>
+        <item>"America/Costa_Rica"</item>
+        <item>"America/Chicago"</item>
+        <item>"America/Mexico_City"</item>
+        <item>"America/Regina"</item>
+        <item>"America/Bogota"</item>
+        <item>"America/New_York"</item>
+        <item>"America/Caracas"</item>
+        <item>"America/Barbados"</item>
+        <item>"America/Halifax"</item>
+        <item>"America/Manaus"</item>
+        <item>"America/Santiago"</item>
+        <item>"America/St_Johns"</item>
+        <item>"America/Sao_Paulo"</item>
+        <item>"America/Argentina/Buenos_Aires"</item>
+        <item>"America/Godthab"</item>
+        <item>"America/Montevideo"</item>
+        <item>"Atlantic/South_Georgia"</item>
+        <item>"Atlantic/Azores"</item>
+        <item>"Atlantic/Cape_Verde"</item>
+        <item>"Africa/Casablanca"</item>
+        <item>"Europe/London"</item>
+        <item>"Europe/Amsterdam"</item>
+        <item>"Europe/Belgrade"</item>
+        <item>"Europe/Brussels"</item>
+        <item>"Europe/Sarajevo"</item>
+        <item>"Africa/Windhoek"</item>
+        <item>"Africa/Brazzaville"</item>
+        <item>"Asia/Amman"</item>
+        <item>"Europe/Athens"</item>
+        <item>"Asia/Beirut"</item>
+        <item>"Africa/Cairo"</item>
+        <item>"Europe/Helsinki"</item>
+        <item>"Asia/Jerusalem"</item>
+        <item>"Europe/Minsk"</item>
+        <item>"Africa/Harare"</item>
+        <item>"Asia/Baghdad"</item>
+        <item>"Europe/Moscow"</item>
+        <item>"Asia/Kuwait"</item>
+        <item>"Africa/Nairobi"</item>
+        <item>"Asia/Tehran"</item>
+        <item>"Asia/Baku"</item>
+        <item>"Asia/Tbilisi"</item>
+        <item>"Asia/Yerevan"</item>
+        <item>"Asia/Dubai"</item>
+        <item>"Asia/Kabul"</item>
+        <item>"Asia/Karachi"</item>
+        <item>"Asia/Oral"</item>
+        <item>"Asia/Yekaterinburg"</item>
+        <item>"Asia/Calcutta"</item>
+        <item>"Asia/Colombo"</item>
+        <item>"Asia/Katmandu"</item>
+        <item>"Asia/Almaty"</item>
+        <item>"Asia/Rangoon"</item>
+        <item>"Asia/Krasnoyarsk"</item>
+        <item>"Asia/Bangkok"</item>
+        <item>"Asia/Shanghai"</item>
+        <item>"Asia/Hong_Kong"</item>
+        <item>"Asia/Irkutsk"</item>
+        <item>"Asia/Kuala_Lumpur"</item>
+        <item>"Australia/Perth"</item>
+        <item>"Asia/Taipei"</item>
+        <item>"Asia/Seoul"</item>
+        <item>"Asia/Tokyo"</item>
+        <item>"Asia/Yakutsk"</item>
+        <item>"Australia/Adelaide"</item>
+        <item>"Australia/Darwin"</item>
+        <item>"Australia/Brisbane"</item>
+        <item>"Australia/Hobart"</item>
+        <item>"Australia/Sydney"</item>
+        <item>"Asia/Vladivostok"</item>
+        <item>"Pacific/Guam"</item>
+        <item>"Asia/Magadan"</item>
+        <item>"Pacific/Auckland"</item>
+        <item>"Pacific/Fiji"</item>
+        <item>"Pacific/Tongatapu"</item>
+    </string-array>
+    <string-array name="volume_button_setting_entries">
+      <item>Snooze</item>
+      <item>Dismiss</item>
+      <item>Do nothing</item>
+      </string-array>
+    <string-array name="volume_button_setting_values" translatable="false">
+      <item>1</item>
+      <item>2</item>
+      <item>0</item>
+    </string-array>
+    <!-- From: file:/Users/QingxiaoDong/GitHub/mocca/mobile-applications/labs/lab1/DeskClock/app/src/main/res/values/config.xml -->
+    <eat-comment/>
+    <bool name="config_dockAppEnabled">true</bool>
+    <bool name="config_requiresScreenSaver">true</bool>
+    <bool name="config_rotateAlarmAlert">false</bool>
+    <!-- From: file:/Users/QingxiaoDong/GitHub/mocca/mobile-applications/labs/lab1/DeskClock/app/src/main/res/values/colors.xml -->
+    <eat-comment/>
+    <color name="action_bar_button_text_color">#FFFFFF</color>
+    <color name="alarm_selected_color">#aa0099cc</color>
+    <color name="alarm_whiteish">#0cffffff</color>
+    <color name="ampm_off">#ff404040</color>
+    <color name="ampm_on">#ffffffff</color>
+    <color name="ampm_text_color">#99FFFFFF</color>
+    <color name="black">#ff000000</color>
+    <color name="blackish">#ff1c1e20</color>
+    <color name="blackish_trans">#cc1c1e20</color>
+    <color name="clock_blue">#ff33b5e5</color>
+    <color name="clock_gray">#80ffffff</color>
+    <color name="clock_red">#ff4444</color>
+    <color name="clock_white">#ffffff</color>
+    <color name="grey">#ffaaaaaa</color>
+    <color name="notification_bg">#ff15444F</color>
+    <color name="red">#ffee0000</color>
+    <color name="screen_saver_color">#FF006688</color>
+    <color name="screen_saver_dim_color">#FF001634</color>
+    <color name="time_text_color">#E6FFFFFF</color>
+    <color name="transparent">#00000000</color>
+    <color name="transparent_white">#66ffffff</color>
+    <color name="white">#ffffffff</color>
+    <declare-styleable name="AnalogClock"><attr format="dimension" name="jewelRadius"/><attr format="dimension" name="jewelOffset"/><attr format="color" name="jewelColor"/></declare-styleable>
+    <declare-styleable name="GlowPadView"><attr name="android:gravity"/><attr format="reference" name="targetDrawables"/><attr format="reference" name="targetDescriptions"/><attr format="reference" name="directionDescriptions"/><attr format="reference" name="handleDrawable"/><attr format="reference" name="outerRingDrawable"/><attr format="reference" name="pointDrawable"/><attr format="dimension" name="innerRadius"/><attr format="dimension" name="outerRadius"/><attr format="dimension" name="glowRadius"/><attr format="integer" name="vibrationDuration"/><attr format="dimension" name="snapMargin"/><attr format="integer" name="feedbackCount"/><attr format="boolean" name="alwaysTrackFinger"/></declare-styleable>
+    <!-- From: file:/Users/QingxiaoDong/GitHub/mocca/mobile-applications/labs/lab1/DeskClock/app/src/main/res/values/dimens.xml -->
+    <eat-comment/>
+    <dimen name="actionbar_tab_padding">0dip</dimen>
+    <dimen name="actionbar_title_font_size">22sp</dimen>
+    <dimen name="alarm_alert_display_width">304dip</dimen>
+    <dimen name="alarm_label_padding">8dip</dimen>
+    <dimen name="alarm_label_size">12sp</dimen>
+    <dimen name="alert_dialog_title_height">64dip</dimen>
+    <dimen name="ampm_margin_top">8dip</dimen>
+    <dimen name="ampm_text_size">20dip</dimen>
+    <dimen name="analog_clock_diameter">236dip</dimen>
+    <dimen name="analog_clock_margin">60dp</dimen>
+    <dimen name="big_font_size">120dp</dimen>
+    <dimen name="body_font_padding">4dp</dimen>
+    <dimen name="body_font_size">18sp</dimen>
+    <dimen name="button_font_size">24sp</dimen>
+    <dimen name="button_footer_height">48dip</dimen>
+    <dimen name="button_footer_height_neg">-48dip</dimen>
+    <dimen name="circle_margin">32dp</dimen>
+    <dimen name="circle_margin_top">16dp</dimen>
+    <dimen name="circletimer_circle_size">4dip</dimen>
+    <dimen name="circletimer_diamond_size">12dip</dimen>
+    <dimen name="circletimer_marker_size">16dip</dimen>
+    <dimen name="cities_list_item_height">64dip</dimen>
+    <dimen name="city_name_font_size">24sp</dimen>
+    <dimen name="city_time_font_size">14sp</dimen>
+    <dimen name="date_text_size">15sp</dimen>
+    <dimen name="def_digital_widget_height">70dip</dimen>
+    <dimen name="def_digital_widget_width">160dip</dimen>
+    <dimen name="delete_button_padding">0dip</dimen>
+    <dimen name="dialog_button_font_size">14sp</dimen>
+    <dimen name="dialpad_font_size">48sp</dimen>
+    <dimen name="dialpad_font_size_ampm">24sp</dimen>
+    <dimen name="digital_widget_list_margin_top">12dip</dimen>
+    <dimen name="font_margin_adjust">4dip</dimen>
+    <dimen name="glowpadview_glow_radius">75dip</dimen>
+    <dimen name="glowpadview_inner_radius">15dip</dimen>
+    <dimen name="glowpadview_margin_bottom">-64dip</dimen>
+    <dimen name="glowpadview_margin_right">0dip</dimen>
+    <dimen name="glowpadview_outerring_diameter">270dip</dimen>
+    <dimen name="glowpadview_snap_margin">40dip</dimen>
+    <dimen name="glowpadview_target_placement_radius">135dip</dimen>
+    <dimen name="header_font_size">24sp</dimen>
+    <dimen name="label_font_size">14sp</dimen>
+    <dimen name="label_margin_big">4dp</dimen>
+    <dimen name="label_margin_small">2dp</dimen>
+    <dimen name="lap_button_padding">0dip</dimen>
+    <dimen name="laps_margin">52dp</dimen>
+    <dimen name="medium_font_padding">12dp</dimen>
+    <dimen name="medium_font_size">60dp</dimen>
+    <dimen name="medium_space_bottom">8dp</dimen>
+    <dimen name="medium_space_top">24dp</dimen>
+    <dimen name="min_digital_widget_height">70dip</dimen>
+    <dimen name="min_digital_widget_resize_height">35dip</dimen>
+    <dimen name="min_digital_widget_resize_width">160dip</dimen>
+    <dimen name="min_digital_widget_width">160dip</dimen>
+    <!-- From: file:/Users/QingxiaoDong/GitHub/mocca/mobile-applications/labs/lab1/DeskClock/app/src/main/res/values/animation_constants.xml -->
+    <eat-comment/>
+    <dimen name="min_lock">20dip</dimen>
+    <dimen name="min_swipe">10dip</dimen>
+    <dimen name="min_vert">10dip</dimen>
+    <!-- From: file:/Users/QingxiaoDong/GitHub/mocca/mobile-applications/labs/lab1/DeskClock/app/src/main/res/values/dimens.xml -->
+    <eat-comment/>
+    <dimen name="next_alarm_margin_top">-4dip</dimen>
+    <dimen name="next_alarm_text_size">15sp</dimen>
+    <dimen name="notification_large_icon_height">64dp</dimen>
+    <dimen name="notification_large_icon_width">64dp</dimen>
+    <dimen name="notification_subtext_size">12dp</dimen>
+    <dimen name="notification_text_size">14dp</dimen>
+    <dimen name="notification_title_text_size">18dp</dimen>
+    <dimen name="plusone_reset_button_padding">0dip</dimen>
+    <dimen name="popup_window_width">196dip</dimen>
+    <dimen name="share_button_padding">0dip</dimen>
+    <dimen name="small_font_size">48sp</dimen>
+    <dimen name="small_space">16dp</dimen>
+    <dimen name="style_label_space">4dip</dimen>
+    <dimen name="tablet_dialpad_font_size">60sp</dimen>
+    <dimen name="tablet_dialpad_font_size_ampm">30sp</dimen>
+    <dimen name="time_margin_bottom">8dip</dimen>
+    <dimen name="time_margin_left">8dip</dimen>
+    <dimen name="time_margin_right">8dip</dimen>
+    <dimen name="time_margin_top">16dip</dimen>
+    <dimen name="time_text_size">120dip</dimen>
+    <dimen name="timer_button_extra_offset">14dip</dimen>
+    <dimen name="timer_circle_diameter">300dip</dimen>
+    <dimen name="timer_circle_width">350dip</dimen>
+    <dimen name="timer_divider_height">24dip</dimen>
+    <dimen name="timer_label_font_size">24sp</dimen>
+    <dimen name="timer_padding_left">16dip</dimen>
+    <dimen name="toast_bar_bottom_margin_in_conversation">24dip</dimen>
+    <dimen name="widget_big_font_size">80dp</dimen>
+    <dimen name="widget_medium_font_size">48dp</dimen>
+    <dimen name="world_clock_analog_size">100dip</dimen>
+    <!-- From: file:/Users/QingxiaoDong/GitHub/mocca/mobile-applications/labs/lab1/DeskClock/app/src/main/res/values/colors.xml -->
+    <eat-comment/>
+    <drawable name="notification_template_icon_bg">#3333B5E5</drawable>
+    <drawable name="notification_template_icon_low_bg">#0cffffff</drawable>
+    <!-- From: file:/Users/QingxiaoDong/GitHub/mocca/mobile-applications/labs/lab1/DeskClock/app/src/main/res/values/ids.xml -->
+    <eat-comment/>
+    <item name="numbers_key" type="id"/>
+    <!-- From: file:/Users/QingxiaoDong/GitHub/mocca/mobile-applications/labs/lab1/DeskClock/app/src/main/res/values/animation_constants.xml -->
+    <eat-comment/>
+    <integer name="dim_animation_duration">500</integer>
+    <integer name="dismiss_animation_duration">500</integer>
+    <integer name="escape_animation_duration">200</integer>
+    <integer name="fade_duration">250</integer>
+    <integer name="hide_animation_duration">200</integer>
+    <integer name="max_dismiss_velocity">2000</integer>
+    <integer name="max_escape_animation_duration">400</integer>
+    <integer name="snap_animation_duration">350</integer>
+    <integer name="swipe_escape_velocity">100</integer>
+    <integer name="swipe_scroll_slop">2</integer>
+    <!-- From: file:/Users/QingxiaoDong/GitHub/mocca/mobile-applications/labs/lab1/DeskClock/app/src/main/res/values/strings.xml -->
+    <eat-comment/>
+    <plurals name="Nhours_description">
+        <!-- 1 hour -->
+        <item quantity="one">1 hour</item>
+        <!-- more -->
+        <item quantity="other"><ns1:g example="7" id="number">%d</ns1:g> hours</item>
+    </plurals>
+    <plurals name="Nminutes_description">
+        <!-- 1 minute -->
+        <item quantity="one">1 minute</item>
+        <!-- more -->
+        <item quantity="other"><ns1:g example="7" id="number">%d</ns1:g> minutes</item>
+    </plurals>
+    <plurals name="Nseconds_description">
+        <!-- 1 second -->
+        <item quantity="one">1 second</item>
+        <!-- more -->
+        <item quantity="other"><ns1:g example="7" id="number">%d</ns1:g> seconds</item>
+    </plurals>
+    <plurals name="alarm_delete_confirmation">
+        <!-- Confirmation for one alarm -->
+        <item quantity="one">Delete selected alarm?</item>
+        <!-- Confirmation more than one alarm  -->
+        <item quantity="other">Delete selected alarms?</item>
+    </plurals>
+    <plurals name="snooze_duration">
+        <!-- Duration for one minute -->
+        <item quantity="one">1 minute</item>
+        <!-- Duration for more than one minute -->
+        <item quantity="other"><ns1:g example="7" id="number">%d</ns1:g> minutes</item>
+    </plurals>
+    <plurals name="snooze_picker_label">
+        <!-- Duration for one minute -->
+        <item quantity="one">minute</item>
+        <!-- Duration for more than one minute -->
+        <item quantity="other">minutes</item>
+    </plurals>
+    <plurals name="timers_num">
+        <!-- 1 timer -->
+        <item quantity="one">1 minute</item>
+        <!-- more -->
+        <item quantity="other"><ns1:g example="7" id="number">%d</ns1:g> timers</item>
+    </plurals>
+    <!-- From: file:/Users/QingxiaoDong/GitHub/mocca/mobile-applications/labs/lab1/DeskClock/app/src/main/res/values/donottranslate.xml -->
+    <eat-comment/>
+    <string name="abbrev_wday_month_day_no_year">EEE, MMMM d</string>
+    <!-- From: file:/Users/QingxiaoDong/GitHub/mocca/mobile-applications/labs/lab1/DeskClock/app/src/main/res/values/strings.xml -->
+    <eat-comment/>
+    <string name="add_alarm">Add alarm</string>
+    <string name="alarm_alert_alert_silenced">Alarm silenced after <ns1:g id="minutes">%d</ns1:g> minutes.</string>
+    <string name="alarm_alert_dismiss_text">Dismiss</string>
+    <string name="alarm_alert_snooze_set">Snoozing for <ns1:g id="minutes">%d</ns1:g> minutes.</string>
+    <string name="alarm_alert_snooze_text">Snooze</string>
+    <string name="alarm_alert_snooze_until">Snoozing until <ns1:g id="time">%s</ns1:g></string>
+    <string name="alarm_button_description">Alarms</string>
+    <string name="alarm_deleted">Alarm deleted.</string>
+    <string name="alarm_klaxon_service_desc">Sound playback service for alarms set in Clock.</string>
+    <string name="alarm_list_title">Alarms</string>
+    <string name="alarm_notify_snooze_label"><ns1:g id="label">%s</ns1:g> (snoozed)</string>
+    <string name="alarm_notify_snooze_text">Alarm set for <ns1:g id="time">%s</ns1:g>. Touch to cancel.</string>
+    <string name="alarm_notify_text">Snooze or dismiss alarm.</string>
+    <string name="alarm_off">OFF</string>
+    <string name="alarm_on">ON</string>
+    <string name="alarm_repeat">Repeat</string>
+    <string name="alarm_settings">ALARMS</string>
+    <string name="alarm_undo">undo</string>
+    <string name="alarm_vibrate">Vibrate</string>
+    <string name="alarm_volume_title">Alarm volume</string>
+    <string name="alarms_selected"><ns1:g id="alarms">%d</ns1:g> selected</string>
+    <string name="alert">Alarm Ringtone</string>
+    <string name="all_timers_stopped_notif">Touch to see your timers</string>
+    <string name="analog_gadget">Analog clock</string>
+    <string name="app_label">Clock</string>
+    <string name="auto_silence_never">Never</string>
+    <string name="auto_silence_summary"><ns1:g id="minutes">%d</ns1:g> minutes</string>
+    <string name="auto_silence_title">Silence after</string>
+    <string name="automatic_home_clock">Automatic home clock</string>
+    <string name="automatic_home_clock_summary">While traveling in an area where the time is different, add a clock for home</string>
+    <string name="battery_charging_level"><ns1:g id="number">%d</ns1:g><ns1:g id="percent">%%</ns1:g></string>
+    <string name="button_alarms">Alarms</string>
+    <string name="button_cities">Cities</string>
+    <string name="button_menu">More options</string>
+    <string name="cities_activity_title">Cities</string>
+    <string name="city_delete_confirmation">Remove this city?</string>
+    <string name="clock_instructions">Choose a clock</string>
+    <string name="clock_settings">CLOCK</string>
+    <string name="clock_style">Style</string>
+    <string name="collapse_alarm">Collapse alarm</string>
+    <string name="control_set_alarm">Set alarm</string>
+    <string name="control_set_alarm_with_existing"><ns1:g id="time">%s</ns1:g></string>
+    <string name="day">"1 day"</string>
+    <string name="day_concat">", "</string>
+    <string name="days">"<ns1:g id="days">%s</ns1:g> days"</string>
+    <!-- From: file:/Users/QingxiaoDong/GitHub/mocca/mobile-applications/labs/lab1/DeskClock/app/src/main/res/values/donottranslate.xml -->
+    <eat-comment/>
+    <string name="default_clock_style">digital</string>
+    <!-- From: file:/Users/QingxiaoDong/GitHub/mocca/mobile-applications/labs/lab1/DeskClock/app/src/main/res/values/strings.xml -->
+    <eat-comment/>
+    <string name="default_label">Alarm</string>
+    <string name="default_ringtone_setting_title">Set default ringtone</string>
+    <string name="delete">Delete</string>
+    <string name="delete_alarm">Delete alarm</string>
+    <string name="delete_alarm_confirm">Delete this alarm?</string>
+    <string name="deleted_message">Deleted</string>
+    <string name="description_direction_down">Slide down to snooze</string>
+    <string name="description_direction_left">Slide left to snooze</string>
+    <string name="description_direction_right">Slide right to dismiss</string>
+    <string name="description_direction_up">Slide up to dismiss</string>
+    <string name="desk_clock_button_description">Clock display</string>
+    <string name="desk_clock_help_url" translatable="false"/>
+    <string name="digital_gadget">Digital clock</string>
+    <string name="disable_alarm">Turn alarm off</string>
+    <string name="done">Done</string>
+    <string name="enable_alarm">Turn alarm on</string>
+    <string name="every_day">Every day</string>
+    <string name="expand_alarm">Expand alarm</string>
+    <!-- From: file:/Users/QingxiaoDong/GitHub/mocca/mobile-applications/labs/lab1/DeskClock/app/src/main/res/values/donottranslate.xml -->
+    <eat-comment/>
+    <string name="full_wday_month_day_no_year">EEEE, MMMM d</string>
+    <!-- From: file:/Users/QingxiaoDong/GitHub/mocca/mobile-applications/labs/lab1/DeskClock/app/src/main/res/values/strings.xml -->
+    <eat-comment/>
+    <string name="gallery_button_description">Gallery</string>
+    <string name="help">help</string>
+    <string name="hide_clock">Hide clock</string>
+    <string name="home_button_description">Launcher</string>
+    <string name="home_label">Home</string>
+    <string name="home_time_zone">Home time zone</string>
+    <string name="home_time_zone_title">Home time zone</string>
+    <string name="hour">1 hour</string>
+    <string name="hours"><ns1:g id="hours">%s</ns1:g> hours</string>
+    <string name="hours_label">h</string>
+    <string name="hours_label_description">hours</string>
+    <string name="label">Label</string>
+    <string name="label_description">Label</string>
+    <string name="label_unlabeled"/>
+    <string name="loading_ringtone">Loading ringtone\u2026</string>
+    <string name="menu_clock">Clock</string>
+    <string name="menu_desk_clock">Desk clock</string>
+    <string name="menu_edit_alarm">Edit alarm</string>
+    <string name="menu_item_help">Help</string>
+    <string name="menu_item_night_mode">Night mode</string>
+    <string name="menu_item_settings">Settings</string>
+    <string name="menu_stopwatch">Stopwatch</string>
+    <string name="menu_timer">Timer</string>
+    <string name="minute">"1 minute"</string>
+    <string name="minutes">"<ns1:g id="minutes">%s</ns1:g> minutes"</string>
+    <string name="minutes_label">m</string>
+    <string name="minutes_label_description">minutes</string>
+    <string name="music_button_description">Music</string>
+    <string name="never">Never</string>
+    <string name="next_alarm_description">Next alarm: <ns1:g example="Wed 8:00am" id="alarm_time">%s</ns1:g></string>
+    <string name="next_timer_notif">Next timer: <ns1:g example="2 minutes remaining" id="time_remaining">%s</ns1:g></string>
+    <string name="night_mode_summary">Very dim display (for dark rooms)</string>
+    <string name="night_mode_title">Night mode</string>
+    <string name="nightmode_button_description">Dim</string>
+    <string name="revert">Revert</string>
+    <string name="ringtone">Ringtone</string>
+    <string name="ringtone_description">Ringtone</string>
+    <string name="screensaver_settings">Dream settings</string>
+    <string name="seconds_label">s</string>
+    <string name="seconds_label_description">seconds</string>
+    <string name="see_all">See all…</string>
+    <string name="set_alarm">Set alarm</string>
+    <string name="settings">Settings</string>
+    <string name="show_clock">Show clock</string>
+    <string name="silent_alarm_summary">Silent</string>
+    <string name="slash"> / </string>
+    <string name="snooze_duration_title">Snooze length</string>
+    <string name="stopwatch_service_desc">Stopwatch service to run the notification.</string>
+    <string name="sw_lap_button">Lap</string>
+    <string name="sw_notification_lap_number">Lap <ns1:g id="number">%d</ns1:g></string>
+    <string name="sw_reset_button">Reset</string>
+    <string name="sw_resume_button">Resume</string>
+    <string name="sw_share_button">Share</string>
+    <string name="sw_share_laps">Lap times:</string>
+    <string name="sw_share_main">My time is <ns1:g id="time">%s</ns1:g></string>
+    <string name="sw_start_button">Start</string>
+    <string name="sw_stop_button">Stop</string>
+    <string name="swn_stopped">Stopped</string>
+    <string name="time">Time</string>
+    <string name="time_picker_00_label">:00</string>
+    <string name="time_picker_30_label">:30</string>
+    <string name="time_picker_ampm_label">--</string>
+    <string name="time_picker_cancel">Cancel</string>
+    <string name="time_picker_set">OK</string>
+    <string name="time_picker_time_seperator">:</string>
+    <string name="timer_add_timer">Add Timer</string>
+    <string name="timer_cancel">Cancel</string>
+    <string name="timer_delete">Delete</string>
+    <string name="timer_delete_confirmation">Delete this timer?</string>
+    <string name="timer_notification_label">Timer</string>
+    <string name="timer_plus_one">Add 1 Minute</string>
+    <string name="timer_reset">Reset</string>
+    <string name="timer_ring_service_desc">Sound playback service for timers set in Clock.</string>
+    <string name="timer_start">Start</string>
+    <string name="timer_stop">Stop</string>
+    <string name="timer_stopped">Timer stopped</string>
+    <string name="timer_times_up">Time\'s up</string>
+    <string name="timers_in_use"><ns1:g example="7" id="number">%d</ns1:g> timers</string>
+    <string name="timers_stopped"><ns1:g example="7" id="number">%d</ns1:g> timers stopped</string>
+    <string name="volume_button_dialog_title">Button effect</string>
+    <string name="volume_button_setting_title">Volume buttons</string>
+    <string name="weather_fetch_failure">Weather information isn\'t available right now.</string>
+    <string name="widget_12_hours_format_h" translatable="false">h</string>
+    <string name="widget_12_hours_format_m" translatable="false">:mm<font size="15">aa</font></string>
+    <string name="widget_12_hours_format_no_ampm_m" translatable="false">:mm</string>
+    <string name="widget_24_hours_format_h" translatable="false">kk</string>
+    <string name="widget_24_hours_format_m" translatable="false">:mm</string>
+    <string name="world_day_of_week_label"> / <ns1:g id="label">%s</ns1:g></string>
+    <string name="zero">0</string>
+    <!-- From: file:/Users/QingxiaoDong/GitHub/mocca/mobile-applications/labs/lab1/DeskClock/app/src/main/res/values/styles.xml -->
+    <eat-comment/>
+    <style name="AlarmAlertFullScreenTheme" parent="android:Theme.Holo.Wallpaper.NoTitleBar">
+        <item name="android:windowTitleStyle">@style/AlarmAlertFullScreenWindowTitle</item>
+    </style>
+    <style name="AlarmAlertFullScreenWindowTitle">
+        <item name="android:maxLines">1</item>
+        <item name="android:scrollHorizontally">true</item>
+        <item name="android:textSize">22sp</item>
+        <item name="android:textColor">@android:color/holo_blue_light</item>
+    </style>
+    <style name="AlarmClockTheme" parent="@android:style/Theme.Holo">
+        <item name="android:windowBackground">@color/blackish</item>
+        <item name="android:actionBarStyle">@style/SettingsTheme.ActionBar</item>
+        <item name="android:dropDownListViewStyle">@style/DeskClockDropDownListView</item>
+        <item name="android:selectableItemBackground">@drawable/item_background</item>
+    </style>
+    <style name="ButtonStripLeft">
+        <item name="android:gravity">center</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:background">@drawable/btn_strip_trans_left</item>
+    </style>
+    <style name="ButtonStripMiddle">
+        <item name="android:gravity">center</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:background">@drawable/btn_strip_trans_middle</item>
+    </style>
+    <style name="ButtonStripRight">
+        <item name="android:gravity">center</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:background">@drawable/btn_strip_trans_right</item>
+    </style>
+    <style name="DeskClock" parent="android:Theme.Holo">
+        <item name="android:windowActionBarOverlay">true</item>
+        <item name="android:windowBackground">@color/blackish</item>
+        <item name="android:actionBarTabStyle">@style/DeskClockTabStyle</item>
+        <item name="android:actionBarStyle">@style/DeskClockBarStyle</item>
+        <item name="android:actionBarTabBarStyle">@style/DeskClockTabBarStyle</item>
+        <item name="android:dropDownListViewStyle">@style/DeskClockDropDownListView</item>
+        <item name="android:selectableItemBackground">@drawable/item_background</item>
+    </style>
+    <style name="DeskClockBarStyle" parent="@android:style/Widget.Holo.ActionBar">
+        <item name="android:background">@drawable/header_bg_bar</item>
+        <item name="android:backgroundStacked">@null</item>
+        <item name="android:backgroundSplit">@null</item>
+        <item name="android:displayOptions"/>
+    </style>
+    <style name="DeskClockDropDownListView" parent="@android:style/Widget.Holo.ListView.DropDown">
+        <item name="android:listSelector">@drawable/item_background</item>
+    </style>
+    <style name="DeskClockTabBarStyle" parent="@android:style/Theme.Holo">
+        <item name="android:background">@drawable/header_bg</item>
+        <item name="android:showDividers">middle</item>
+        <item name="android:divider">?android:attr/dividerVertical</item>
+        <item name="android:dividerPadding">12dp</item>
+        <item name="android:gravity">center</item>
+    </style>
+    <style name="DeskClockTabStyle" parent="@android:style/Theme.Holo">
+        <item name="android:paddingLeft">@dimen/actionbar_tab_padding</item>
+        <item name="android:paddingRight">@dimen/actionbar_tab_padding</item>
+        <item name="android:background">@drawable/item_background</item>
+        <item name="android:gravity">center</item>
+    </style>
+    <style name="RoundTouchButton">
+        <item name="android:gravity">center</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:background">@null</item>
+    </style>
+    <style name="ScreensaverActivityTheme" parent="android:Theme.Holo.Wallpaper.NoTitleBar"/>
+    <style name="SetAlarmTheme" parent="android:Theme.Holo.DialogWhenLarge"/>
+    <style name="SettingsTheme" parent="android:Theme.Holo">
+        <item name="android:windowBackground">@color/blackish</item>
+        <item name="android:actionBarStyle">@style/SettingsTheme.ActionBar</item>
+        <item name="android:dropDownListViewStyle">@style/DeskClockDropDownListView</item>
+        <item name="android:selectableItemBackground">@drawable/item_background</item>
+    </style>
+    <style name="SettingsTheme.ActionBar" parent="@android:style/Widget.Holo.ActionBar">
+        <item name="android:titleTextStyle">@style/SettingsTheme.TextAppearance.ActionBar.Title</item>
+        <item name="android:displayOptions">useLogo|showTitle</item>
+        <item name="android:background">@drawable/ab_hairline</item>
+
+    </style>
+    <style name="SettingsTheme.TextAppearance.ActionBar.Title" parent="@android:style/TextAppearance.Holo.Widget.ActionBar.Title">
+        <item name="android:textSize">@dimen/actionbar_title_font_size</item>
+        <item name="android:textColor">@color/clock_red</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textAllCaps">true</item>
+    </style>
+    <style name="TextAppearance">
+        <item name="android:textSize">16sp</item>
+        <item name="android:textStyle">normal</item>
+    </style>
+    <style name="TextAppearance.StatusBar">
+        <item name="android:textAppearance">?android:attr/textAppearanceSmall</item>
+    </style>
+    <style name="TextAppearance.StatusBar.EventContent">
+        <item name="android:textSize">@dimen/notification_text_size</item>
+        <item name="android:textColor">#999999</item>
+    </style>
+    <style name="TextAppearance.StatusBar.EventContent.Line2">
+        <item name="android:textSize">@dimen/notification_subtext_size</item>
+    </style>
+    <style name="TextAppearance.StatusBar.EventContent.Time">
+        <item name="android:textSize">@dimen/notification_subtext_size</item>
+        <item name="android:textColor">#999999</item>
+    </style>
+    <style name="TextAppearance.StatusBar.EventContent.Title">
+        <item name="android:textColor">#ffffff</item>
+        <item name="android:fontFamily">sans-serif-light</item>
+        <item name="android:textSize">@dimen/notification_title_text_size</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+    <style name="TimePickerDialog" parent="android:style/Theme.Holo.Dialog">
+        <item name="android:windowNoTitle">true</item>
+    </style>
+    <style name="ToastBarStyle">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">48dip</item>
+        <item name="android:layout_gravity">bottom</item>
+        <item name="android:layout_marginLeft">4dip</item>
+        <item name="android:layout_marginRight">4dip</item>
+        <item name="android:orientation">horizontal</item>
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:background">@drawable/panel_undo_holo</item>
+        <item name="android:visibility">gone</item>
+        <item name="android:alpha">0</item>
+        <item name="android:clickable">true</item>
+    </style>
+    <style name="alarm_label">
+        <item name="android:textSize">@dimen/alarm_label_size</item>
+        <item name="android:textAllCaps">true</item>
+        <item name="android:fontFamily">sans-serif-condensed</item>
+    </style>
+    <style name="alarm_label_bold">
+        <item name="android:textSize">@dimen/alarm_label_size</item>
+        <item name="android:textAllCaps">true</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:fontFamily">sans-serif-condensed</item>
+    </style>
+    <style name="alarm_label_not_caps" parent="alarm_label">
+        <item name="android:textAllCaps">false</item>
+    </style>
+    <style name="alarm_list_left_column">
+        <item name="android:layout_width">68dip</item>
+        <item name="android:layout_height">68dip</item>
+    </style>
+    <style name="big_bold">
+        <item name="android:textSize">@dimen/big_font_size</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:fontFamily">sans-serif</item>
+    </style>
+    <style name="big_thin">
+        <item name="android:textSize">@dimen/big_font_size</item>
+        <item name="android:fontFamily">sans-serif-thin</item>
+    </style>
+    <style name="body">
+        <item name="android:textSize">@dimen/body_font_size</item>
+        <item name="android:textAllCaps">true</item>
+        <item name="android:fontFamily">sans-serif-condensed</item>
+    </style>
+    <style name="body_bold">
+        <item name="android:textSize">@dimen/body_font_size</item>
+        <item name="android:textAllCaps">true</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:fontFamily">sans-serif-condensed</item>
+    </style>
+    <style name="body_not_caps" parent="body">
+        <item name="android:textAllCaps">false</item>
+    </style>
+    <style name="bold_button" parent="button">
+        <item name="android:textStyle">bold</item>
+    </style>
+    <style name="button">
+        <item name="android:textSize">@dimen/button_font_size</item>
+        <item name="android:textAllCaps">true</item>
+        <item name="android:fontFamily">sans-serif-condensed</item>
+    </style>
+    <style name="city_name">
+        <item name="android:textSize">@dimen/city_name_font_size</item>
+        <item name="android:textAllCaps">true</item>
+        <item name="android:fontFamily">sans-serif-condensed</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+    <style name="city_time">
+        <item name="android:textSize">@dimen/city_time_font_size</item>
+        <item name="android:textAllCaps">true</item>
+        <item name="android:fontFamily">sans-serif</item>
+    </style>
+    <style name="clock">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:layout_gravity">center_horizontal</item>
+    </style>
+    <style name="dialog_button">
+        <item name="android:textSize">@dimen/dialog_button_font_size</item>
+        <item name="android:fontFamily">sans-serif</item>
+    </style>
+    <style name="dialpad">
+        <item name="android:textSize">@dimen/dialpad_font_size</item>
+        <item name="android:textAllCaps">true</item>
+        <item name="android:fontFamily">sans-serif-light</item>
+    </style>
+    <style name="dialpad_ampm" parent="dialpad">
+        <item name="android:textSize">@dimen/dialpad_font_size_ampm</item>
+    </style>
+    <style name="header">
+        <item name="android:textSize">@dimen/header_font_size</item>
+        <item name="android:textAllCaps">true</item>
+        <item name="android:fontFamily">sans-serif-condensed</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+    <style name="header_not_caps" parent="header">
+        <item name="android:textAllCaps">false</item>
+    </style>
+    <style name="label">
+        <item name="android:textSize">@dimen/label_font_size</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textAllCaps">true</item>
+        <item name="android:fontFamily">sans-serif-condensed</item>
+    </style>
+    <style name="label_not_caps" parent="label">
+        <item name="android:textAllCaps">false</item>
+    </style>
+    <style name="medium_bold">
+        <item name="android:textSize">@dimen/medium_font_size</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:fontFamily">sans-serif</item>
+    </style>
+    <style name="medium_light">
+        <item name="android:textSize">@dimen/medium_font_size</item>
+        <item name="android:fontFamily">sans-serif-light</item>
+    </style>
+    <style name="small_bold">
+        <item name="android:textSize">@dimen/small_font_size</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:fontFamily">sans-serif</item>
+    </style>
+    <style name="small_light">
+        <item name="android:textSize">@dimen/small_font_size</item>
+        <item name="android:fontFamily">sans-serif-light</item>
+    </style>
+    <style name="tablet_dialpad">
+        <item name="android:textSize">@dimen/tablet_dialpad_font_size</item>
+        <item name="android:textAllCaps">true</item>
+        <item name="android:fontFamily">sans-serif-condensed</item>
+    </style>
+    <style name="tablet_dialpad_ampm">
+        <item name="android:textSize">@dimen/tablet_dialpad_font_size_ampm</item>
+        <item name="android:textAllCaps">true</item>
+        <item name="android:fontFamily">sans-serif-condensed</item>
+    </style>
+    <style name="timer_label">
+        <item name="android:textSize">@dimen/timer_label_font_size</item>
+        <item name="android:fontFamily">sans-serif-condensed</item>
+    </style>
+    <style name="widget_big_bold" parent="big_bold">
+        <item name="android:textSize">@dimen/widget_big_font_size</item>
+    </style>
+    <style name="widget_big_thin" parent="big_thin">
+        <item name="android:textSize">@dimen/widget_big_font_size</item>
+    </style>
+    <style name="widget_medium_bold" parent="medium_bold">
+        <item name="android:textSize">@dimen/widget_medium_font_size</item>
+    </style>
+    <style name="widget_medium_light" parent="medium_light">
+        <item name="android:textSize">@dimen/widget_medium_font_size</item>
+    </style>
+</resources>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- From: file:/Users/QingxiaoDong/GitHub/mocca/mobile-applications/labs/lab1/DeskClock/app/src/main/res/values-sw720dp-land/dimens.xml -->
+    <eat-comment/>
+    <dimen name="alarm_alert_clock_padding_left">128dp</dimen>
+    <dimen name="def_digital_widget_height">150dip</dimen>
+    <dimen name="glowpadview_margin_right">48dip</dimen>
+</resources>

@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:ns1="urn:oasis:names:tc:xliff:document:1.2">
+    <!-- From: file:/Users/QingxiaoDong/GitHub/mocca/mobile-applications/labs/lab1/DeskClock/app/src/main/res/values-rm/strings.xml -->
+    <eat-comment/>
+    <string msgid="5976616107390962899" name="add_alarm">"Agiuntar in svegliarin"</string>
+    <string msgid="4942914605480888820" name="alarm_alert_dismiss_text">"Annullar"</string>
+    <string msgid="656470966696912087" name="alarm_alert_snooze_set">"Repetiziun en <ns1:g id="MINUTES">%d</ns1:g> minutas."</string>
+    <string msgid="1774416052207651584" name="alarm_alert_snooze_text">"Repeter"</string>
+    <string msgid="740283647046258651" name="alarm_button_description">"Svegliarins"</string>
+    <string msgid="7589940465292950600" name="alarm_list_title">"Svegliarin"</string>
+    <string msgid="5404083762646377829" name="alarm_notify_snooze_label">"<ns1:g id="LABEL">%s</ns1:g> (repetiziun)"</string>
+    <string msgid="7242985466344233206" name="alarm_repeat">"Repeter"</string>
+    <string msgid="3476686921490362230" name="alarm_vibrate">"Vibrar"</string>
+    <string msgid="8506245173912428522" name="alarm_volume_title">"Volumen dal svegliarin"</string>
+    <string msgid="1670505720837152766" name="analog_gadget">"Ura analoga"</string>
+    <string msgid="6674495003718166674" name="app_label">"Ura"</string>
+    <string msgid="7984755014526510295" name="day">"1 di"</string>
+    <string msgid="971998564991636532" name="day_concat">", "</string>
+    <string msgid="2070509222727852210" name="days">"<ns1:g id="DAYS">%s</ns1:g> dis"</string>
+    <string msgid="5590025289805630372" name="default_label">"Svegliarin"</string>
+    <string msgid="4549726190682964245" name="default_ringtone_setting_title">"Utilisar il tun da scalin da standard"</string>
+    <string msgid="5732434972457000541" name="delete">"Stizzar"</string>
+    <string msgid="3457780990646206817" name="delete_alarm">"Stizzar il svegliarin"</string>
+    <string msgid="5889378670229554109" name="disable_alarm">"Deactivar il svegliarin"</string>
+    <string msgid="6509722361933858451" name="done">"Finì"</string>
+    <string msgid="1834599140632142536" name="enable_alarm">"Activar il svegliarin"</string>
+    <string msgid="1151743663255257668" name="gallery_button_description">"Catalog"</string>
+    <string msgid="3217727306480505694" name="hide_clock">"Zuppentar l\'ura"</string>
+    <string msgid="3383859096809056157" name="home_button_description">"Lantschader"</string>
+    <string msgid="2546819039651509323" name="hour">"1 ura"</string>
+    <string msgid="2071487018566991613" name="hours">"<ns1:g id="HOURS">%s</ns1:g> uras"</string>
+    <string msgid="162189613902857319" name="label">"Etichetta"</string>
+    <string msgid="4699506713571930740" name="label_unlabeled"/>
+    <string msgid="3241995064554071588" name="menu_desk_clock">"Ura da desktop"</string>
+    <string msgid="7204602994918829751" name="menu_edit_alarm">"Modifitgar il svegliarin"</string>
+    <string msgid="2486157997434653710" name="minute">"1 minuta"</string>
+    <string msgid="6115838729146292526" name="minutes">"<ns1:g id="MINUTES">%s</ns1:g> minutas"</string>
+    <string msgid="1626593420810117999" name="music_button_description">"Musica"</string>
+    <string msgid="54104287800571769" name="never">"Mai"</string>
+    <string msgid="990894208217576381" name="nightmode_button_description">"Stgirentar"</string>
+    <string msgid="9100911171235162926" name="revert">"Reinizialisar"</string>
+    <string msgid="9148359866152726808" name="set_alarm">"Drizzar il svegliarin"</string>
+    <string msgid="5849739030579520686" name="settings">"Parameters"</string>
+    <string msgid="8358759982675616915" name="show_clock">"Mussar l\'ura"</string>
+    <string msgid="8605302849408279221" name="silent_alarm_summary">"Silenzius"</string>
+    <string msgid="8067216534232296518" name="time">"Ura"</string>
+    <string msgid="8768042543750036853" name="volume_button_dialog_title">"Effect dal buttun"</string>
+</resources>

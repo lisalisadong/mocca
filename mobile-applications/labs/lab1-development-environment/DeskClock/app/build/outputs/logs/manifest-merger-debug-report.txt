@@ -1,0 +1,478 @@
+-- Merging decision tree log ---
+manifest
+ADDED from AndroidManifest.xml:1:1
+	xmlns:android
+		ADDED from AndroidManifest.xml:1:11
+	package
+		ADDED from AndroidManifest.xml:2:9
+		INJECTED from AndroidManifest.xml:0:0
+		INJECTED from AndroidManifest.xml:0:0
+	android:versionName
+		ADDED from AndroidManifest.xml:3:35
+	android:versionCode
+		ADDED from AndroidManifest.xml:3:9
+		INJECTED from AndroidManifest.xml:0:0
+		INJECTED from AndroidManifest.xml:0:0
+original-package
+ADDED from AndroidManifest.xml:5:5
+	android:name
+		ADDED from AndroidManifest.xml:5:23
+uses-permission#android.permission.RECEIVE_BOOT_COMPLETED
+ADDED from AndroidManifest.xml:8:5
+	android:name
+		ADDED from AndroidManifest.xml:8:22
+uses-permission#android.permission.WAKE_LOCK
+ADDED from AndroidManifest.xml:9:5
+	android:name
+		ADDED from AndroidManifest.xml:9:22
+uses-permission#android.permission.VIBRATE
+ADDED from AndroidManifest.xml:10:5
+	android:name
+		ADDED from AndroidManifest.xml:10:22
+uses-permission#android.permission.WRITE_SETTINGS
+ADDED from AndroidManifest.xml:11:5
+	android:name
+		ADDED from AndroidManifest.xml:11:22
+uses-permission#android.permission.DISABLE_KEYGUARD
+ADDED from AndroidManifest.xml:12:5
+	android:name
+		ADDED from AndroidManifest.xml:12:22
+uses-permission#android.permission.READ_PHONE_STATE
+ADDED from AndroidManifest.xml:13:5
+	android:name
+		ADDED from AndroidManifest.xml:13:22
+uses-permission#android.permission.DEVICE_POWER
+ADDED from AndroidManifest.xml:14:5
+	android:name
+		ADDED from AndroidManifest.xml:14:22
+uses-permission#android.permission.READ_EXTERNAL_STORAGE
+ADDED from AndroidManifest.xml:15:5
+	android:name
+		ADDED from AndroidManifest.xml:15:22
+uses-sdk
+ADDED from AndroidManifest.xml:16:5
+	android:targetSdkVersion
+		INJECTED from AndroidManifest.xml:0:0
+		INJECTED from AndroidManifest.xml:0:0
+	android:minSdkVersion
+		ADDED from AndroidManifest.xml:16:15
+		INJECTED from AndroidManifest.xml:0:0
+		INJECTED from AndroidManifest.xml:0:0
+application
+ADDED from AndroidManifest.xml:18:5
+	android:label
+		ADDED from AndroidManifest.xml:18:18
+	android:icon
+		ADDED from AndroidManifest.xml:19:18
+provider#com.android.deskclock.AlarmProvider
+ADDED from AndroidManifest.xml:21:9
+	android:exported
+		ADDED from AndroidManifest.xml:23:17
+	android:authorities
+		ADDED from AndroidManifest.xml:22:17
+	android:name
+		ADDED from AndroidManifest.xml:21:19
+activity#com.android.deskclock.DeskClock
+ADDED from AndroidManifest.xml:25:9
+	android:label
+		ADDED from AndroidManifest.xml:26:17
+	android:icon
+		ADDED from AndroidManifest.xml:28:17
+	android:theme
+		ADDED from AndroidManifest.xml:27:17
+	android:name
+		ADDED from AndroidManifest.xml:25:19
+	android:launchMode
+		ADDED from AndroidManifest.xml:29:17
+intent-filter#android.intent.action.MAIN+android.intent.category.DEFAULT+android.intent.category.LAUNCHER
+ADDED from AndroidManifest.xml:32:13
+action#android.intent.action.MAIN
+ADDED from AndroidManifest.xml:33:17
+	android:name
+		ADDED from AndroidManifest.xml:33:25
+category#android.intent.category.DEFAULT
+ADDED from AndroidManifest.xml:34:17
+	android:name
+		ADDED from AndroidManifest.xml:34:27
+category#android.intent.category.LAUNCHER
+ADDED from AndroidManifest.xml:35:17
+	android:name
+		ADDED from AndroidManifest.xml:35:27
+activity-alias#com.android.deskclock.DockClock
+ADDED from AndroidManifest.xml:39:9
+	android:label
+		ADDED from AndroidManifest.xml:41:17
+	android:icon
+		ADDED from AndroidManifest.xml:43:17
+	android:theme
+		ADDED from AndroidManifest.xml:42:17
+	android:enabled
+		ADDED from AndroidManifest.xml:45:17
+	android:targetActivity
+		ADDED from AndroidManifest.xml:40:17
+	android:name
+		ADDED from AndroidManifest.xml:39:25
+	android:launchMode
+		ADDED from AndroidManifest.xml:44:17
+intent-filter#android.intent.action.MAIN+android.intent.category.DEFAULT+android.intent.category.DESK_DOCK
+ADDED from AndroidManifest.xml:47:13
+category#android.intent.category.DESK_DOCK
+ADDED from AndroidManifest.xml:50:17
+	android:name
+		ADDED from AndroidManifest.xml:50:27
+activity#com.android.deskclock.AlarmClock
+ADDED from AndroidManifest.xml:54:9
+	android:label
+		ADDED from AndroidManifest.xml:55:17
+	android:theme
+		ADDED from AndroidManifest.xml:56:17
+	android:exported
+		ADDED from AndroidManifest.xml:60:17
+	android:excludeFromRecents
+		ADDED from AndroidManifest.xml:58:17
+	android:taskAffinity
+		ADDED from AndroidManifest.xml:57:17
+	android:name
+		ADDED from AndroidManifest.xml:54:19
+	android:launchMode
+		ADDED from AndroidManifest.xml:59:17
+activity-alias#com.android.alarmclock.AlarmClock
+ADDED from AndroidManifest.xml:62:9
+	android:exported
+		ADDED from AndroidManifest.xml:64:17
+	android:targetActivity
+		ADDED from AndroidManifest.xml:63:17
+	android:name
+		ADDED from AndroidManifest.xml:62:25
+activity#com.android.deskclock.SettingsActivity
+ADDED from AndroidManifest.xml:66:9
+	android:label
+		ADDED from AndroidManifest.xml:67:17
+	android:theme
+		ADDED from AndroidManifest.xml:68:17
+	android:excludeFromRecents
+		ADDED from AndroidManifest.xml:70:17
+	android:taskAffinity
+		ADDED from AndroidManifest.xml:69:17
+	android:name
+		ADDED from AndroidManifest.xml:66:19
+intent-filter#android.intent.action.MAIN
+ADDED from AndroidManifest.xml:72:13
+activity#com.android.deskclock.worldclock.CitiesActivity
+ADDED from AndroidManifest.xml:77:9
+	android:label
+		ADDED from AndroidManifest.xml:78:17
+	android:theme
+		ADDED from AndroidManifest.xml:79:17
+	android:excludeFromRecents
+		ADDED from AndroidManifest.xml:81:17
+	android:taskAffinity
+		ADDED from AndroidManifest.xml:80:17
+	android:name
+		ADDED from AndroidManifest.xml:77:19
+activity#com.android.deskclock.SetAlarm
+ADDED from AndroidManifest.xml:88:9
+	android:label
+		ADDED from AndroidManifest.xml:89:17
+	android:theme
+		ADDED from AndroidManifest.xml:90:17
+	android:name
+		ADDED from AndroidManifest.xml:88:19
+activity#com.android.deskclock.AlarmAlert
+ADDED from AndroidManifest.xml:92:9
+	android:configChanges
+		ADDED from AndroidManifest.xml:97:17
+	android:theme
+		ADDED from AndroidManifest.xml:94:17
+	android:excludeFromRecents
+		ADDED from AndroidManifest.xml:93:17
+	android:taskAffinity
+		ADDED from AndroidManifest.xml:96:17
+	android:name
+		ADDED from AndroidManifest.xml:92:19
+	android:launchMode
+		ADDED from AndroidManifest.xml:95:17
+activity#com.android.deskclock.AlarmAlertFullScreen
+ADDED from AndroidManifest.xml:101:9
+	android:screenOrientation
+		ADDED from AndroidManifest.xml:107:17
+	android:configChanges
+		ADDED from AndroidManifest.xml:108:17
+	android:theme
+		ADDED from AndroidManifest.xml:103:17
+	android:showOnLockScreen
+		ADDED from AndroidManifest.xml:106:17
+	android:excludeFromRecents
+		ADDED from AndroidManifest.xml:102:17
+	android:taskAffinity
+		ADDED from AndroidManifest.xml:105:17
+	android:name
+		ADDED from AndroidManifest.xml:101:19
+	android:launchMode
+		ADDED from AndroidManifest.xml:104:17
+activity#com.android.deskclock.ScreensaverActivity
+ADDED from AndroidManifest.xml:110:9
+	android:configChanges
+		ADDED from AndroidManifest.xml:114:17
+	android:theme
+		ADDED from AndroidManifest.xml:113:17
+	android:excludeFromRecents
+		ADDED from AndroidManifest.xml:111:17
+	android:taskAffinity
+		ADDED from AndroidManifest.xml:112:17
+	android:name
+		ADDED from AndroidManifest.xml:110:19
+receiver#com.android.deskclock.AlarmReceiver
+ADDED from AndroidManifest.xml:116:9
+	android:exported
+		ADDED from AndroidManifest.xml:117:17
+	android:name
+		ADDED from AndroidManifest.xml:116:19
+intent-filter#alarm_killed+cancel_snooze+com.android.deskclock.ALARM_ALERT
+ADDED from AndroidManifest.xml:118:13
+action#com.android.deskclock.ALARM_ALERT
+ADDED from AndroidManifest.xml:119:17
+	android:name
+		ADDED from AndroidManifest.xml:119:25
+action#alarm_killed
+ADDED from AndroidManifest.xml:120:17
+	android:name
+		ADDED from AndroidManifest.xml:120:25
+action#cancel_snooze
+ADDED from AndroidManifest.xml:121:17
+	android:name
+		ADDED from AndroidManifest.xml:121:25
+activity#com.android.deskclock.HandleSetAlarm
+ADDED from AndroidManifest.xml:125:9
+	android:theme
+		ADDED from AndroidManifest.xml:126:17
+	android:permission
+		ADDED from AndroidManifest.xml:128:17
+	android:excludeFromRecents
+		ADDED from AndroidManifest.xml:127:17
+	android:name
+		ADDED from AndroidManifest.xml:125:19
+intent-filter#android.intent.action.SET_ALARM+android.intent.category.DEFAULT
+ADDED from AndroidManifest.xml:129:13
+action#android.intent.action.SET_ALARM
+ADDED from AndroidManifest.xml:130:17
+	android:name
+		ADDED from AndroidManifest.xml:130:25
+service#com.android.deskclock.AlarmKlaxon
+ADDED from AndroidManifest.xml:141:9
+	android:exported
+		ADDED from AndroidManifest.xml:142:17
+	android:description
+		ADDED from AndroidManifest.xml:143:17
+	android:name
+		ADDED from AndroidManifest.xml:141:18
+intent-filter#com.android.deskclock.ALARM_ALERT
+ADDED from AndroidManifest.xml:144:13
+receiver#com.android.deskclock.AlarmInitReceiver
+ADDED from AndroidManifest.xml:149:9
+	android:name
+		ADDED from AndroidManifest.xml:149:19
+intent-filter#android.intent.action.BOOT_COMPLETED+android.intent.action.LOCALE_CHANGED+android.intent.action.TIMEZONE_CHANGED+android.intent.action.TIME_SET
+ADDED from AndroidManifest.xml:150:13
+action#android.intent.action.BOOT_COMPLETED
+ADDED from AndroidManifest.xml:151:17
+	android:name
+		ADDED from AndroidManifest.xml:151:25
+action#android.intent.action.TIME_SET
+ADDED from AndroidManifest.xml:152:17
+	android:name
+		ADDED from AndroidManifest.xml:152:25
+action#android.intent.action.TIMEZONE_CHANGED
+ADDED from AndroidManifest.xml:153:17
+	android:name
+		ADDED from AndroidManifest.xml:153:25
+action#android.intent.action.LOCALE_CHANGED
+ADDED from AndroidManifest.xml:154:17
+	android:name
+		ADDED from AndroidManifest.xml:154:25
+receiver#com.android.alarmclock.AnalogAppWidgetProvider
+ADDED from AndroidManifest.xml:158:9
+	android:label
+		ADDED from AndroidManifest.xml:158:81
+	android:icon
+		ADDED from AndroidManifest.xml:159:12
+	android:name
+		ADDED from AndroidManifest.xml:158:19
+intent-filter#android.appwidget.action.APPWIDGET_UPDATE
+ADDED from AndroidManifest.xml:160:13
+action#android.appwidget.action.APPWIDGET_UPDATE
+ADDED from AndroidManifest.xml:161:17
+	android:name
+		ADDED from AndroidManifest.xml:161:25
+meta-data#android.appwidget.oldName
+ADDED from AndroidManifest.xml:163:13
+	android:name
+		ADDED from AndroidManifest.xml:163:24
+	android:value
+		ADDED from AndroidManifest.xml:163:65
+meta-data#android.appwidget.provider
+ADDED from AndroidManifest.xml:164:13
+	android:resource
+		ADDED from AndroidManifest.xml:164:66
+	android:name
+		ADDED from AndroidManifest.xml:164:24
+receiver#com.android.alarmclock.DigitalAppWidgetProvider
+ADDED from AndroidManifest.xml:167:9
+	android:label
+		ADDED from AndroidManifest.xml:167:82
+	android:icon
+		ADDED from AndroidManifest.xml:168:12
+	android:name
+		ADDED from AndroidManifest.xml:167:19
+service#com.android.alarmclock.DigitalAppWidgetService
+ADDED from AndroidManifest.xml:175:9
+	android:exported
+		ADDED from AndroidManifest.xml:177:14
+	android:permission
+		ADDED from AndroidManifest.xml:176:14
+	android:name
+		ADDED from AndroidManifest.xml:175:18
+receiver#com.android.alarmclock.DigitalWidgetViewsFactory
+ADDED from AndroidManifest.xml:179:9
+	android:exported
+		ADDED from AndroidManifest.xml:180:14
+	android:name
+		ADDED from AndroidManifest.xml:179:19
+service#com.android.deskclock.Screensaver
+ADDED from AndroidManifest.xml:183:9
+	android:label
+		ADDED from AndroidManifest.xml:185:13
+	android:exported
+		ADDED from AndroidManifest.xml:184:13
+	android:name
+		ADDED from AndroidManifest.xml:183:18
+intent-filter#android.intent.category.DEFAULT+android.service.dreams.DreamService
+ADDED from AndroidManifest.xml:186:13
+action#android.service.dreams.DreamService
+ADDED from AndroidManifest.xml:187:17
+	android:name
+		ADDED from AndroidManifest.xml:187:25
+meta-data#android.service.dream
+ADDED from AndroidManifest.xml:190:13
+	android:resource
+		ADDED from AndroidManifest.xml:192:17
+	android:name
+		ADDED from AndroidManifest.xml:191:17
+activity#com.android.deskclock.ScreensaverSettingsActivity
+ADDED from AndroidManifest.xml:196:9
+	android:label
+		ADDED from AndroidManifest.xml:197:17
+	android:theme
+		ADDED from AndroidManifest.xml:198:17
+	android:exported
+		ADDED from AndroidManifest.xml:201:17
+	android:excludeFromRecents
+		ADDED from AndroidManifest.xml:200:17
+	android:taskAffinity
+		ADDED from AndroidManifest.xml:199:17
+	android:name
+		ADDED from AndroidManifest.xml:196:19
+activity#com.android.deskclock.timer.TimerAlertFullScreen
+ADDED from AndroidManifest.xml:211:9
+	android:configChanges
+		ADDED from AndroidManifest.xml:217:17
+	android:theme
+		ADDED from AndroidManifest.xml:213:17
+	android:showOnLockScreen
+		ADDED from AndroidManifest.xml:215:17
+	android:excludeFromRecents
+		ADDED from AndroidManifest.xml:212:17
+	android:taskAffinity
+		ADDED from AndroidManifest.xml:216:17
+	android:name
+		ADDED from AndroidManifest.xml:211:19
+	android:launchMode
+		ADDED from AndroidManifest.xml:214:17
+service#com.android.deskclock.TimerRingService
+ADDED from AndroidManifest.xml:219:9
+	android:exported
+		ADDED from AndroidManifest.xml:220:17
+	android:description
+		ADDED from AndroidManifest.xml:221:17
+	android:name
+		ADDED from AndroidManifest.xml:219:18
+intent-filter#com.android.deskclock.TIMER_ALERT
+ADDED from AndroidManifest.xml:222:13
+action#com.android.deskclock.TIMER_ALERT
+ADDED from AndroidManifest.xml:223:17
+	android:name
+		ADDED from AndroidManifest.xml:223:25
+receiver#com.android.deskclock.timer.TimerReceiver
+ADDED from AndroidManifest.xml:227:9
+	android:exported
+		ADDED from AndroidManifest.xml:228:17
+	android:name
+		ADDED from AndroidManifest.xml:227:19
+intent-filter#delete_timer+notif_in_use_cancel+notif_in_use_show+start_timer+timer_done+timer_reset+timer_stop+timer_update+times_up
+ADDED from AndroidManifest.xml:229:13
+action#start_timer
+ADDED from AndroidManifest.xml:230:17
+	android:name
+		ADDED from AndroidManifest.xml:230:25
+action#delete_timer
+ADDED from AndroidManifest.xml:231:17
+	android:name
+		ADDED from AndroidManifest.xml:231:25
+action#times_up
+ADDED from AndroidManifest.xml:232:17
+	android:name
+		ADDED from AndroidManifest.xml:232:25
+action#timer_stop
+ADDED from AndroidManifest.xml:233:17
+	android:name
+		ADDED from AndroidManifest.xml:233:25
+action#timer_reset
+ADDED from AndroidManifest.xml:234:17
+	android:name
+		ADDED from AndroidManifest.xml:234:25
+action#timer_done
+ADDED from AndroidManifest.xml:235:17
+	android:name
+		ADDED from AndroidManifest.xml:235:25
+action#timer_update
+ADDED from AndroidManifest.xml:236:17
+	android:name
+		ADDED from AndroidManifest.xml:236:25
+action#notif_in_use_show
+ADDED from AndroidManifest.xml:237:17
+	android:name
+		ADDED from AndroidManifest.xml:237:25
+action#notif_in_use_cancel
+ADDED from AndroidManifest.xml:238:17
+	android:name
+		ADDED from AndroidManifest.xml:238:25
+service#com.android.deskclock.stopwatch.StopwatchService
+ADDED from AndroidManifest.xml:242:9
+	android:exported
+		ADDED from AndroidManifest.xml:243:17
+	android:description
+		ADDED from AndroidManifest.xml:244:17
+	android:name
+		ADDED from AndroidManifest.xml:242:18
+intent-filter#lap_stopwatch+reset_stopwatch+share_stopwatch+start_stopwatch+stop_stopwatch
+ADDED from AndroidManifest.xml:245:13
+action#start_stopwatch
+ADDED from AndroidManifest.xml:246:17
+	android:name
+		ADDED from AndroidManifest.xml:246:25
+action#lap_stopwatch
+ADDED from AndroidManifest.xml:247:17
+	android:name
+		ADDED from AndroidManifest.xml:247:25
+action#stop_stopwatch
+ADDED from AndroidManifest.xml:248:17
+	android:name
+		ADDED from AndroidManifest.xml:248:25
+action#reset_stopwatch
+ADDED from AndroidManifest.xml:249:17
+	android:name
+		ADDED from AndroidManifest.xml:249:25
+action#share_stopwatch
+ADDED from AndroidManifest.xml:250:17
+	android:name
+		ADDED from AndroidManifest.xml:250:25

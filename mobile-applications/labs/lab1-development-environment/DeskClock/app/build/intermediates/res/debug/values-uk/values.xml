@@ -1,0 +1,607 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:ns1="urn:oasis:names:tc:xliff:document:1.2">
+    <!-- From: file:/Users/QingxiaoDong/GitHub/mocca/mobile-applications/labs/lab1/DeskClock/app/src/main/res/values-uk/strings.xml -->
+    <eat-comment/>
+    <string-array name="alarm_set">
+    <item msgid="6450913786084215050">"Час до активації цього сигналу: менше 1 хв."</item>
+    <item msgid="6002066367368421848">"Час до активації цього сигналу: <ns1:g id="DAYS">%1$s</ns1:g>."</item>
+    <item msgid="8824719306247973774">"Час до активації цього сигналу: <ns1:g id="HOURS">%2$s</ns1:g>."</item>
+    <item msgid="8182406852935468862">"Час до активації цього сигналу: <ns1:g id="DAYS">%1$s</ns1:g> і <ns1:g id="HOURS">%2$s</ns1:g>."</item>
+    <item msgid="2532279224777213194">"Час до активації цього сигналу: <ns1:g id="MINUTES">%3$s</ns1:g>."</item>
+    <item msgid="5936557894247187717">"Час до активації цього сигналу: <ns1:g id="DAYS">%1$s</ns1:g> і <ns1:g id="MINUTES">%3$s</ns1:g>."</item>
+    <item msgid="9115697840826129603">"Час до активації цього сигналу: <ns1:g id="HOURS">%2$s</ns1:g> і <ns1:g id="MINUTES">%3$s</ns1:g>."</item>
+    <item msgid="2332583385137381060">"Час до активації цього сигналу: <ns1:g id="DAYS">%1$s</ns1:g>, <ns1:g id="HOURS">%2$s</ns1:g> і <ns1:g id="MINUTES">%3$s</ns1:g>."</item>
+  </string-array>
+    <string-array name="auto_silence_entries">
+    <item msgid="3693401222993867634">"5 хвилин"</item>
+    <item msgid="3663730603519549990">"10 хвилин"</item>
+    <item msgid="1385481095199681200">"15 хвилин"</item>
+    <item msgid="420479821767342125">"20 хвилин"</item>
+    <item msgid="2107936130151066746">"25 хвилин"</item>
+    <item msgid="7219791437023378544">"30 хвилин"</item>
+    <item msgid="4278641338024561333">"Ніколи"</item>
+  </string-array>
+    <!-- From: file:/Users/QingxiaoDong/GitHub/mocca/mobile-applications/labs/lab1/DeskClock/app/src/main/res/values-uk/array.xml -->
+    <eat-comment/>
+    <string-array name="cities_names">
+    <item msgid="2528360178629244616">"Абіджан"</item>
+    <item msgid="6944239639314079002">"Аккра"</item>
+    <item msgid="1882840263263451068">"Аддис-Абеба"</item>
+    <item msgid="1028929145486670248">"Алжир"</item>
+    <item msgid="3701057587584676092">"Блантайр"</item>
+    <item msgid="2886322632268247117">"Браззавіль"</item>
+    <item msgid="6897570881968822043">"Каїр"</item>
+    <item msgid="267605539096913498">"Касабланка"</item>
+    <item msgid="4211664465580587414">"Конакрі"</item>
+    <item msgid="4541602834272820641">"Дакар"</item>
+    <item msgid="8465732069409300950">"Дар-ес-Салам"</item>
+    <item msgid="6622510954516549116">"Джибуті"</item>
+    <item msgid="2276489800209768303">"Фрітаун"</item>
+    <item msgid="1240576997711861023">"Габороне"</item>
+    <item msgid="5349334209171364385">"Хараре"</item>
+    <item msgid="6113191477690557327">"Йоганнесбург"</item>
+    <item msgid="927428576674822400">"Кампала"</item>
+    <item msgid="4026832076115235469">"Хартум"</item>
+    <item msgid="5410782788724286381">"Кігалі"</item>
+    <item msgid="7732811111504353705">"Кіншаса"</item>
+    <item msgid="932809008471125011">"Лагос"</item>
+    <item msgid="2795948760365855772">"Масеру"</item>
+    <item msgid="6464910812969504493">"Могадішо"</item>
+    <item msgid="4620365036488328944">"Найробі"</item>
+    <item msgid="4196652835056468390">"Сан-Томе"</item>
+    <item msgid="2002053268354813523">"Тімбукту"</item>
+    <item msgid="6789355206260535774">"Триполі"</item>
+    <item msgid="1662913445892282208">"Туніс"</item>
+    <item msgid="1958350526592385504">"Анкоридж"</item>
+    <item msgid="4530964415403549431">"Мендоса"</item>
+    <item msgid="5519841965499989640">"Аруба"</item>
+    <item msgid="3619641653330712167">"Асунсьйон"</item>
+    <item msgid="1807527094848372100">"Барбадос"</item>
+    <item msgid="7833099001850188721">"Беліз"</item>
+    <item msgid="5063415446546412441">"Богота"</item>
+    <item msgid="2839227656429500365">"Буенос-Айрес"</item>
+    <item msgid="1133762043888408997">"Канкун"</item>
+    <item msgid="5326063045518438386">"Каракас"</item>
+    <item msgid="889935230113732517">"Кайманові острови"</item>
+    <item msgid="3444477982230350362">"Чикаго"</item>
+    <item msgid="610305270095390771">"Коста-Рика"</item>
+    <item msgid="4297448531030514920">"Кюрасао"</item>
+    <item msgid="1819003821428989864">"Довсон-Крік"</item>
+    <item msgid="4753714764113170675">"Денвер"</item>
+    <item msgid="2279315094917045244">"Детройт"</item>
+    <item msgid="1330228105893462956">"Домініка"</item>
+    <item msgid="3303245425281858320">"Едмонтон"</item>
+    <item msgid="6102675683216802960">"Сальвадор"</item>
+    <item msgid="7404823948632138334">"Форталеза"</item>
+    <item msgid="5295234178172153733">"Гранд-Терк"</item>
+    <item msgid="3015155377774814857">"Гренада"</item>
+    <item msgid="5124228611616346914">"Гватемала"</item>
+    <item msgid="890870630819396468">"Гаяна"</item>
+    <item msgid="7195964234494402331">"Галіфакс"</item>
+    <item msgid="4983877234758737190">"Гавана"</item>
+    <item msgid="2738888001225341531">"Індіанаполіс"</item>
+    <item msgid="5335614190119698790">"Нокс"</item>
+    <item msgid="9056292535030679310">"Маренго"</item>
+    <item msgid="1049051761793330471">"Пітерсберг"</item>
+    <item msgid="4086392912705989429">"Телл-Сіті"</item>
+    <item msgid="4953356468739912331">"Віві"</item>
+    <item msgid="879918079035739958">"Венсен"</item>
+    <item msgid="620064188588916047">"Вінамак"</item>
+    <item msgid="1743310759320576964">"Кінгстон"</item>
+    <item msgid="5836540468054579646">"Ла-Пас"</item>
+    <item msgid="9111190480556180457">"Ліма"</item>
+    <item msgid="3849323884810644665">"Лос-Анджелес"</item>
+    <item msgid="9186705637161264387">"Луїсвілл"</item>
+    <item msgid="6045939557161114820">"Манагуа"</item>
+    <item msgid="3688923880208568496">"Мартиніка"</item>
+    <item msgid="3124245926616896140">"Мендоса"</item>
+    <item msgid="8264013691437690644">"Метлакатла"</item>
+    <item msgid="3242307788223843671">"Мехіко"</item>
+    <item msgid="3904210242491724008">"Монтеррей"</item>
+    <item msgid="2049700402307558992">"Монтевідео"</item>
+    <item msgid="6972371385309297826">"Монреаль"</item>
+    <item msgid="1121150121639680484">"Насау"</item>
+    <item msgid="8783518093470040300">"Нью-Йорк"</item>
+    <item msgid="8685565479120721681">"Б’юла"</item>
+    <item msgid="6854366494939955818">"Сентер"</item>
+    <item msgid="7325195282520040665">"Нью-Салем"</item>
+    <item msgid="3368872340258580668">"Панама"</item>
+    <item msgid="58921303248631494">"Фенікс"</item>
+    <item msgid="6678389014419621494">"Порт-оф-Спейн"</item>
+    <item msgid="5255184875289196899">"Порт-о-Пренс"</item>
+    <item msgid="7039428977566254389">"Пуерто-Рико"</item>
+    <item msgid="1577859671465557300">"Санто-Домінго"</item>
+    <item msgid="3956700126827381905">"Сан-Паулу"</item>
+    <item msgid="3851056559336304908">"Сент-Джонс"</item>
+    <item msgid="7620601490016157459">"Сент-Кітс"</item>
+    <item msgid="256494147725561888">"Сент-Люсія"</item>
+    <item msgid="9065982618380084594">"Сент-Томас"</item>
+    <item msgid="7424657189317481507">"Тіхуана"</item>
+    <item msgid="7378768724772963031">"Торонто"</item>
+    <item msgid="2880175928020421322">"Ванкувер"</item>
+    <item msgid="8906495585877998744">"Вінніпег"</item>
+    <item msgid="8681645071790623069">"Південний полюс"</item>
+    <item msgid="9066834921549182064">"Лонг’їр"</item>
+    <item msgid="4656709932014204632">"Алмати"</item>
+    <item msgid="2173021164159165084">"Амман"</item>
+    <item msgid="5365315490101319010">"Анадир"</item>
+    <item msgid="2203136550754775298">"Актау"</item>
+    <item msgid="6373057865921966096">"Багдад"</item>
+    <item msgid="7705451629446449789">"Бахрейн"</item>
+    <item msgid="2201480850069597815">"Баку"</item>
+    <item msgid="424770109352500733">"Бангкок"</item>
+    <item msgid="5329081174177673828">"Бейрут"</item>
+    <item msgid="7187135889522860058">"Калькутта"</item>
+    <item msgid="8261312970920594511">"Дамаск"</item>
+    <item msgid="6050005781178769107">"Дака"</item>
+    <item msgid="846831973484498790">"Дубай"</item>
+    <item msgid="6320380511060318660">"Газа"</item>
+    <item msgid="138195076135095830">"Хеврон"</item>
+    <item msgid="2792857260329757927">"Хошимін"</item>
+    <item msgid="2753915200056183217">"Гонконг"</item>
+    <item msgid="6375713877627922624">"Стамбул"</item>
+    <item msgid="164857852656167029">"Джакарта"</item>
+    <item msgid="514551483895638508">"Єрусалим"</item>
+    <item msgid="7852405794661778785">"Кабул"</item>
+    <item msgid="2733033767438957766">"Карачі"</item>
+    <item msgid="5644311217186397680">"Катманду"</item>
+    <item msgid="1242216853434928489">"Куала-Лумпур"</item>
+    <item msgid="4933780769758115782">"Кувейт"</item>
+    <item msgid="6882764635090995312">"Макао"</item>
+    <item msgid="3986352476396048104">"Маніла"</item>
+    <item msgid="7941758124259560958">"Маскат"</item>
+    <item msgid="2671480270494284192">"Пномпень"</item>
+    <item msgid="3585358766120768888">"Пхеньян"</item>
+    <item msgid="282733287703161268">"Катар"</item>
+    <item msgid="8551825553277677949">"Рангун"</item>
+    <item msgid="3510541723342902050">"Ер-Ріяд"</item>
+    <item msgid="7301933049899867383">"Сайгон"</item>
+    <item msgid="2859585838402694009">"Сеул"</item>
+    <item msgid="33498601045535875">"Шанхай"</item>
+    <item msgid="8274790879257759399">"Сінгапур"</item>
+    <item msgid="4185891512451859606">"Тайбей"</item>
+    <item msgid="8272983787037437358">"Тегеран"</item>
+    <item msgid="7548402686482506151">"Тель-Авів"</item>
+    <item msgid="6921751833980197720">"Токіо"</item>
+    <item msgid="59728156515393986">"Улан-Батор"</item>
+    <item msgid="701446121859732513">"Бермудські острови"</item>
+    <item msgid="6874435045145230527">"Канарські острови"</item>
+    <item msgid="1975124795172898686">"Кабо-Верде"</item>
+    <item msgid="5405194758503124447">"Рейк’явік"</item>
+    <item msgid="4841506971765063373">"Стенлі"</item>
+    <item msgid="3192252088299410199">"Аделаїда"</item>
+    <item msgid="4515440099016150233">"Брісбейн"</item>
+    <item msgid="1603342478771190398">"Канберра"</item>
+    <item msgid="7369443573793537977">"Дарвін"</item>
+    <item msgid="6038622967693853356">"Мельбурн"</item>
+    <item msgid="5987600941235656656">"Новий Південний Уельс"</item>
+    <item msgid="8993222367897103441">"Перт"</item>
+    <item msgid="2331172541371685437">"Квінсленд"</item>
+    <item msgid="2150912736505182699">"Сідней"</item>
+    <item msgid="8097029759143077179">"Вікторія"</item>
+    <item msgid="2175264082469352441">"Ньюфаундленд"</item>
+    <item msgid="5299806709792658953">"Саскачеван"</item>
+    <item msgid="2742335625880576228">"Острів Пасхи"</item>
+    <item msgid="3401105135843706855">"Амстердам"</item>
+    <item msgid="7408055867187369479">"Андорра"</item>
+    <item msgid="7714099594043232998">"Афіни"</item>
+    <item msgid="7588965073415041593">"Белфаст"</item>
+    <item msgid="8982755519728730268">"Белград"</item>
+    <item msgid="5820954942905597949">"Берлін"</item>
+    <item msgid="7624062157455799880">"Братислава"</item>
+    <item msgid="6138895798733335888">"Брюссель"</item>
+    <item msgid="8836227282219002613">"Бухарест"</item>
+    <item msgid="8868098210480147802">"Будапешт"</item>
+    <item msgid="114329374155996860">"Кишинів"</item>
+    <item msgid="6487487167873723374">"Копенгаген"</item>
+    <item msgid="5264002034116955880">"Дублін"</item>
+    <item msgid="7950073703814432186">"Гібралтар"</item>
+    <item msgid="4616641627708493425">"Гельсінкі"</item>
+    <item msgid="212359461403262711">"Острів Мен"</item>
+    <item msgid="4245799496293578703">"Стамбул"</item>
+    <item msgid="4477669700025211678">"Київ"</item>
+    <item msgid="7233802930588725294">"Лісабон"</item>
+    <item msgid="7186725202454661926">"Лондон"</item>
+    <item msgid="5298853578615697920">"Люксембург"</item>
+    <item msgid="3107227222663823852">"Мадрид"</item>
+    <item msgid="6409612387432198642">"Мальта"</item>
+    <item msgid="6955558182074785338">"Мінськ"</item>
+    <item msgid="6228242074512253552">"Монако"</item>
+    <item msgid="6544575681565409774">"Москва"</item>
+    <item msgid="3976815367069730505">"Осло"</item>
+    <item msgid="2469420333993086275">"Париж"</item>
+    <item msgid="7485656867179996639">"Прага"</item>
+    <item msgid="988513162091270543">"Рига"</item>
+    <item msgid="3998650297514954079">"Рим"</item>
+    <item msgid="1732427206709814080">"Сан-Марино"</item>
+    <item msgid="2794131568674225119">"Сараєво"</item>
+    <item msgid="2400301040855226066">"Сімферополь"</item>
+    <item msgid="9186733542818983602">"Скоп’є"</item>
+    <item msgid="1586570243468059398">"Софія"</item>
+    <item msgid="564898083230872572">"Стокгольм"</item>
+    <item msgid="8462542989781385012">"Таллінн"</item>
+    <item msgid="6709788967440613264">"Ватикан"</item>
+    <item msgid="8251863344440905549">"Відень"</item>
+    <item msgid="3257947331297603891">"Вільнюс"</item>
+    <item msgid="2305299694079344212">"Варшава"</item>
+    <item msgid="4469591142000997702">"Загреб"</item>
+    <item msgid="3827805692447432666">"Цюрих"</item>
+    <item msgid="7710293346890852314">"Антананаріву"</item>
+    <item msgid="8675463358261691187">"Мальдіви"</item>
+    <item msgid="8258461076442136172">"Маврикій"</item>
+    <item msgid="3150318624617990367">"Окленд"</item>
+    <item msgid="8427795435830682122">"Фіджі"</item>
+    <item msgid="1158779814198631169">"Гуам"</item>
+    <item msgid="5893704879373137457">"Гонолулу"</item>
+    <item msgid="1770338947698194275">"Кірітіматі"</item>
+    <item msgid="3115018823853432422">"Нумеа"</item>
+    <item msgid="8930848797035435014">"Самоа"</item>
+    <item msgid="5520094948583238358">"Таїті"</item>
+    <item msgid="7301905385854586936">"Антигуа"</item>
+    <item msgid="8984152310253274404">"Остін"</item>
+    <item msgid="6874533703004710145">"Бостон"</item>
+    <item msgid="7432962958322057136">"Калгарі"</item>
+    <item msgid="8096684279604140978">"Колумбус"</item>
+    <item msgid="936901718255724986">"Даллас"</item>
+    <item msgid="4015131634823666245">"Ноксвілл"</item>
+    <item msgid="3978413466663710403">"Мемфіс"</item>
+    <item msgid="5023838008354228529">"Маямі"</item>
+    <item msgid="7182213480667543511">"Міннеаполіс"</item>
+    <item msgid="869023139270244552">"Оттава"</item>
+    <item msgid="8138869957811168440">"Філадельфія"</item>
+    <item msgid="1752278495028380978">"Портленд"</item>
+    <item msgid="8972733979389600134">"Сан-Дієго"</item>
+    <item msgid="304925930860094332">"Сан-Франциско"</item>
+    <item msgid="1092295421727954508">"Солт-Лейк-Сіті"</item>
+    <item msgid="2861495155508879945">"Сан-Хосе"</item>
+    <item msgid="6951841899277574144">"Сан-Сальвадор"</item>
+    <item msgid="4063054959106860389">"Сіетл"</item>
+    <item msgid="4985936045757148312">"Сент-Луїс"</item>
+    <item msgid="2498001791404810614">"Вашингтон, округ Колумбія"</item>
+    <item msgid="6490744399654978915">"Х’юстон"</item>
+    <item msgid="5461172996986211872">"Сан-Антоніо"</item>
+    <item msgid="7955879665647778362">"Джексонвілл"</item>
+    <item msgid="7274737959786806118">"Балтимор"</item>
+    <item msgid="5440109692257991959">"Нешвіл"</item>
+    <item msgid="2580598303029580540">"Мілуокі"</item>
+    <item msgid="5778397064882342884">"Оклахома-Сіті"</item>
+    <item msgid="60834900460576333">"Лас-Вегас"</item>
+    <item msgid="1242224546028941695">"Альбукерке"</item>
+    <item msgid="2108508912885156322">"Тусон"</item>
+    <item msgid="2736505692163909286">"Сакраменто"</item>
+    <item msgid="4244292537769840523">"Атланта"</item>
+    <item msgid="1458420523389537755">"Клівленд"</item>
+    <item msgid="6576927115185043547">"Новий Орлеан"</item>
+    <item msgid="2723274638984844697">"Тампа"</item>
+    <item msgid="1176352970801801624">"Піттсбург"</item>
+    <item msgid="5624802871949256105">"Цинциннаті"</item>
+    <item msgid="527393217276418005">"Маунтін-В’ю"</item>
+    <item msgid="1744025839066009857">"Ріно"</item>
+    <item msgid="6276904698731697502">"Блек-Рок-Сіті"</item>
+    <item msgid="2844451059935789778">"Доха"</item>
+    <item msgid="4108653157206192019">"Пекін"</item>
+    <item msgid="6115360044399896579">"Мумбай"</item>
+    <item msgid="7140676596549732117">"Делі"</item>
+    <item msgid="1236127343975476693">"Осака"</item>
+    <item msgid="6470041111418276646">"Лахор"</item>
+    <item msgid="5672665774945554582">"Сана"</item>
+    <item msgid="4227294244388933650">"Барселона"</item>
+    <item msgid="2404605478532633099">"Мюнхен"</item>
+    <item msgid="2402973841037462176">"Мілан"</item>
+    <item msgid="1658609023659261743">"Франкфурт"</item>
+    <item msgid="4214691757607136548">"Ханой"</item>
+    <item msgid="484506613000693635">"Анкара"</item>
+    <item msgid="1958807113380596945">"Бангалор"</item>
+    <item msgid="2258411542499008700">"Бразиліа"</item>
+    <item msgid="770086263560182220">"Кейптаун"</item>
+    <item msgid="5936333722350504953">"Ісламабад"</item>
+    <item msgid="3631805761163219329">"Ріо-де-Жанейро"</item>
+    <item msgid="6544644866501929714">"Енн-Арбор"</item>
+    <item msgid="8675519768651745334">"Боулдер"</item>
+    <item msgid="7006632817384692182">"Кембридж"</item>
+    <item msgid="7233704593042272414">"Кіркленд"</item>
+    <item msgid="717352875658559544">"Медісон"</item>
+    <item msgid="3567009426051313507">"Гуанчжоу"</item>
+    <item msgid="2738289235744819761">"Хайдарабад"</item>
+    <item msgid="35629823970779893">"Рестон"</item>
+  </string-array>
+    <!-- From: file:/Users/QingxiaoDong/GitHub/mocca/mobile-applications/labs/lab1/DeskClock/app/src/main/res/values-uk/strings.xml -->
+    <eat-comment/>
+    <string-array name="clock_style_entries">
+    <item msgid="917900462224167608">"Аналоговий"</item>
+    <item msgid="8483930821046925592">"Цифровий"</item>
+  </string-array>
+    <string-array name="sw_share_strings">
+    <item msgid="842841032273927988">"Ну ви й швидкі!"</item>
+    <item msgid="6332879039890727169">"Насолоджуйтесь плодами своєї праці."</item>
+    <item msgid="815382761274660130">"Пристрої Android швидкі, але ви – швидші!"</item>
+    <item msgid="7916250650982813737">"Фу."</item>
+    <item msgid="6836603904515182333">"Стільки разів: L33t."</item>
+    <item msgid="7508085100680861631">"Неймовірна швидкість."</item>
+    <item msgid="5961245252909589573">"Повторімо \"викривлення часу\"."</item>
+    <item msgid="5211891900854545940">"Просто стрибніть ліворуч."</item>
+    <item msgid="9071353477103826053">"Ви дуже поспішаєте."</item>
+    <item msgid="3785193933691117181">"Швидкість світла."</item>
+  </string-array>
+    <string-array name="timer_notifications">
+    <item msgid="7760558912503484257">"Залишилося менше хвилини"</item>
+    <item msgid="83197792732433351">"Залишилося <ns1:g id="HOURS">%1$s</ns1:g>"</item>
+    <item msgid="8919698220200894252">"Залишилося <ns1:g id="MINUTES">%2$s</ns1:g>"</item>
+    <item msgid="8458069283817013813">"Залишилося <ns1:g id="HOURS">%1$s</ns1:g> <ns1:g id="MINUTES">%2$s</ns1:g>"</item>
+  </string-array>
+    <string-array name="timezone_labels">
+    <item msgid="5495601234086197399">"Маршаллові острови"</item>
+    <item msgid="4196408495909011020">"Острів Мідвей"</item>
+    <item msgid="1414384194857730006">"Гаваї"</item>
+    <item msgid="2687091371581931926">"Аляска"</item>
+    <item msgid="1922100269679049660">"Тихоокеанський час"</item>
+    <item msgid="7156402158716866161">"Тіхуана"</item>
+    <item msgid="1144117502254612241">"Арізона"</item>
+    <item msgid="101284182011722637">"Чіхуахуа"</item>
+    <item msgid="689121094232986897">"Гірський час"</item>
+    <item msgid="5445331923942302756">"Центральна Америка"</item>
+    <item msgid="2749806434052452351">"Центральний час"</item>
+    <item msgid="3997138870229703753">"Мехіко"</item>
+    <item msgid="5425567073027744888">"Саскачеван"</item>
+    <item msgid="2877342865396629368">"Богота"</item>
+    <item msgid="568682398893899670">"Східний час"</item>
+    <item msgid="668135984541863866">"Венесуела"</item>
+    <item msgid="3737474220861486223">"Атлант. час (Барбадос)"</item>
+    <item msgid="6279116051273436870">"Атлант. час (Канада)"</item>
+    <item msgid="8513382867172014244">"Манаус"</item>
+    <item msgid="7776299003105932407">"Сантьяго"</item>
+    <item msgid="8636989494746218677">"Ньюфаундленд"</item>
+    <item msgid="4402541016410147505">"Бразиліа"</item>
+    <item msgid="2251184440733164084">"Буенос-Айрес"</item>
+    <item msgid="6202926618569004969">"Гренландія"</item>
+    <item msgid="2355275037115290628">"Монтевідео"</item>
+    <item msgid="1377549694711708945">"Центральна Атлантика"</item>
+    <item msgid="3457671272126347981">"Азорські острови"</item>
+    <item msgid="3659315141063710840">"Острови Кабо Верде"</item>
+    <item msgid="1260941741802367635">"Касабланка"</item>
+    <item msgid="8275203689687954762">"Лондон, Дублін"</item>
+    <item msgid="5970179539479320905">"Амстердам, Берлін"</item>
+    <item msgid="5396319478750517962">"Белград"</item>
+    <item msgid="8688787475056663004">"Брюссель"</item>
+    <item msgid="3415827874921681622">"Сараєво"</item>
+    <item msgid="402008965928320066">"Віндгук"</item>
+    <item msgid="6436942724959275569">"Західно-африк. час"</item>
+    <item msgid="954536568417204026">"Амман, Йорданія"</item>
+    <item msgid="8932745482008902551">"Афіни, Стамбул"</item>
+    <item msgid="320025725949024510">"Бейрут, Ліван"</item>
+    <item msgid="7242083112551905970">"Каїр"</item>
+    <item msgid="7241520146011450419">"Гельсінкі"</item>
+    <item msgid="2717065017510546526">"Єрусалим"</item>
+    <item msgid="8698556287741466553">"Мінськ"</item>
+    <item msgid="1797598357342084506">"Хараре"</item>
+    <item msgid="5169119919905066998">"Багдад"</item>
+    <item msgid="2615788116201065182">"Москва"</item>
+    <item msgid="9084354867885584646">"Кувейт"</item>
+    <item msgid="1351570519986178268">"Найробі"</item>
+    <item msgid="7094569580635877460">"Тегеран"</item>
+    <item msgid="3953138772617909704">"Баку"</item>
+    <item msgid="2868893113598800752">"Тбілісі"</item>
+    <item msgid="7088581865802476373">"Єреван"</item>
+    <item msgid="1941122257623887992">"Дубай"</item>
+    <item msgid="9194797225058249720">"Кабул"</item>
+    <item msgid="6486569254364577332">"Ісламабад, Карачі"</item>
+    <item msgid="5487724896895412089">"Уральськ"</item>
+    <item msgid="364906869710826982">"Єкатеринбург"</item>
+    <item msgid="2106505051751383358">"Колката"</item>
+    <item msgid="6851586621581501447">"Шрі-Ланка"</item>
+    <item msgid="800438544128213134">"Катманду"</item>
+    <item msgid="6173621471007643021">"Астана"</item>
+    <item msgid="8645125891971581128">"Янгон"</item>
+    <item msgid="2886407505119737794">"Красноярськ"</item>
+    <item msgid="3408222398188107090">"Бангкок"</item>
+    <item msgid="4441612937172851228">"Пекін"</item>
+    <item msgid="4936715789028996930">"Гонконг"</item>
+    <item msgid="4261031143777385525">"Іркутськ"</item>
+    <item msgid="3538060959338191835">"Куала-Лумпур"</item>
+    <item msgid="1438847562643099201">"Перт"</item>
+    <item msgid="3063913827688244383">"Тайбей"</item>
+    <item msgid="3502757135046564209">"Сеул"</item>
+    <item msgid="6107588684519111669">"Токіо, Осака"</item>
+    <item msgid="4350769099755608471">"Якутськ"</item>
+    <item msgid="2422707004533526462">"Аделаїда"</item>
+    <item msgid="1292192084554134339">"Дарвін"</item>
+    <item msgid="1320883699470001716">"Брісбейн"</item>
+    <item msgid="5137198806146386527">"Гобарт"</item>
+    <item msgid="5920063686933941174">"Сідней, Канберра"</item>
+    <item msgid="615906039696009425">"Владивосток"</item>
+    <item msgid="7738680449356275374">"Гуам"</item>
+    <item msgid="2882915026380778227">"Магадан"</item>
+    <item msgid="8255615641810148152">"Окленд"</item>
+    <item msgid="3027153773466391728">"Фіджі"</item>
+    <item msgid="5911600083231840181">"Тонга"</item>
+  </string-array>
+    <string-array name="volume_button_setting_entries">
+    <item msgid="7972756698723318690">"Відкласти"</item>
+    <item msgid="3450979320164769576">"Відхилити"</item>
+    <item msgid="6302517608411378024">"Не робити нічого"</item>
+  </string-array>
+    <plurals name="Nhours_description">
+    <item msgid="371227238759147245" quantity="one">"1 год."</item>
+    <item msgid="7018184076091344797" quantity="other">"<ns1:g id="NUMBER">%d</ns1:g> год."</item>
+  </plurals>
+    <plurals name="Nminutes_description">
+    <item msgid="1001391305885322059" quantity="one">"1 хв."</item>
+    <item msgid="6948360065351547776" quantity="other">"<ns1:g id="NUMBER">%d</ns1:g> хв."</item>
+  </plurals>
+    <plurals name="Nseconds_description">
+    <item msgid="6589853086641485725" quantity="one">"1 с."</item>
+    <item msgid="7583230315175387547" quantity="other">"<ns1:g id="NUMBER">%d</ns1:g> с."</item>
+  </plurals>
+    <plurals name="alarm_delete_confirmation">
+    <item msgid="111940612131906802" quantity="one">"Видалити вибраний сигнал?"</item>
+    <item msgid="6918176478191272189" quantity="other">"Видалити вибрані сигнали?"</item>
+  </plurals>
+    <plurals name="snooze_duration">
+    <item msgid="7406963706727564418" quantity="one">"1 хвилина"</item>
+    <item msgid="568504136093419703" quantity="other">"<ns1:g id="NUMBER">%d</ns1:g> хв."</item>
+  </plurals>
+    <plurals name="snooze_picker_label">
+    <item msgid="3783171637798575068" quantity="one">"хвилина"</item>
+    <item msgid="1304056759541595077" quantity="other">"хв."</item>
+  </plurals>
+    <plurals name="timers_num">
+    <item msgid="6764708652976799977" quantity="one">"1 хвилина"</item>
+    <item msgid="3799129667336330616" quantity="other">"Таймерів: <ns1:g id="NUMBER">%d</ns1:g>"</item>
+  </plurals>
+    <!-- From: file:/Users/QingxiaoDong/GitHub/mocca/mobile-applications/labs/lab1/DeskClock/app/src/main/res/values-uk/donottranslate.xml -->
+    <eat-comment/>
+    <string name="abbrev_wday_month_day_no_year">E, d MMMM</string>
+    <!-- From: file:/Users/QingxiaoDong/GitHub/mocca/mobile-applications/labs/lab1/DeskClock/app/src/main/res/values-uk/strings.xml -->
+    <eat-comment/>
+    <string msgid="5976616107390962899" name="add_alarm">"Додати сигнал"</string>
+    <string msgid="2704775170733835993" name="alarm_alert_alert_silenced">"Сигнал вимкнувся через <ns1:g id="MINUTES">%d</ns1:g> хв."</string>
+    <string msgid="4942914605480888820" name="alarm_alert_dismiss_text">"Припинити"</string>
+    <string msgid="656470966696912087" name="alarm_alert_snooze_set">"Періодичність: <ns1:g id="MINUTES">%d</ns1:g> хв."</string>
+    <string msgid="1774416052207651584" name="alarm_alert_snooze_text">"Періодично"</string>
+    <string msgid="6958013659168344550" name="alarm_alert_snooze_until">"Відкласти сигнал до <ns1:g id="TIME">%s</ns1:g>"</string>
+    <string msgid="740283647046258651" name="alarm_button_description">"Сигнали"</string>
+    <string msgid="5017075127290219443" name="alarm_deleted">"Сигнал видалено."</string>
+    <string msgid="2147506334302260256" name="alarm_klaxon_service_desc">"Служба відтворення звуків для набору сигналів у Годиннику."</string>
+    <string msgid="7589940465292950600" name="alarm_list_title">"Сигнали"</string>
+    <string msgid="5404083762646377829" name="alarm_notify_snooze_label">"<ns1:g id="LABEL">%s</ns1:g> (періодично)"</string>
+    <string msgid="4819324081410990368" name="alarm_notify_snooze_text">"Сигнал установлено на <ns1:g id="TIME">%s</ns1:g>. Торкніться, щоб скасувати."</string>
+    <string msgid="4891014685945904766" name="alarm_notify_text">"Періодичний сигнал або припинити дію сигналу."</string>
+    <string msgid="6478058633710013612" name="alarm_off">"ВИМКНЕНО"</string>
+    <string msgid="4344630320756422804" name="alarm_on">"УВІМКНЕНО"</string>
+    <string msgid="7242985466344233206" name="alarm_repeat">"Повторити"</string>
+    <string msgid="6049627772103646753" name="alarm_settings">"СИГНАЛИ"</string>
+    <string msgid="5710042601177655254" name="alarm_undo">"відмінити"</string>
+    <string msgid="3476686921490362230" name="alarm_vibrate">"Вібросигнал"</string>
+    <string msgid="8506245173912428522" name="alarm_volume_title">"Гучність сигналу"</string>
+    <string msgid="1075308195332888260" name="alarms_selected">"Вибрано <ns1:g id="ALARMS">%d</ns1:g>"</string>
+    <string msgid="6506982899651975645" name="alert">"Звук сигналу"</string>
+    <string msgid="278532320068394600" name="all_timers_stopped_notif">"Торкніться, щоб переглянути свої таймери"</string>
+    <string msgid="1670505720837152766" name="analog_gadget">"Аналог. годинник"</string>
+    <string msgid="6674495003718166674" name="app_label">"Годинник"</string>
+    <string msgid="4821982647348750809" name="auto_silence_never">"Ніколи"</string>
+    <string msgid="7028508740659733028" name="auto_silence_summary">"<ns1:g id="MINUTES">%d</ns1:g> хв."</string>
+    <string msgid="2012754009554434544" name="auto_silence_title">"Вимкнути сигнали через"</string>
+    <string msgid="6274174710735449252" name="automatic_home_clock">"Автоматичний годинник для рідного часового поясу"</string>
+    <string msgid="6020476321040807273" name="automatic_home_clock_summary">"Подорожуючи в інших часових поясах, додайте годинник для рідного часового поясу"</string>
+    <string msgid="5251483622085889693" name="battery_charging_level">"<ns1:g id="NUMBER">%d</ns1:g><ns1:g id="PERCENT">%%</ns1:g>"</string>
+    <string msgid="8016103479617020265" name="button_alarms">"Сигнали"</string>
+    <string msgid="4555761857494501363" name="button_cities">"Міста"</string>
+    <string msgid="6050484561842120282" name="button_menu">"Інші параметри"</string>
+    <string msgid="8552462751129256730" name="cities_activity_title">"Міста"</string>
+    <string msgid="1783441538785676299" name="city_delete_confirmation">"Вилучити це місто?"</string>
+    <string msgid="2656876819515011590" name="clock_instructions">"Виберіть годинник"</string>
+    <string msgid="8887845806151785393" name="clock_settings">"ГОДИННИК"</string>
+    <string msgid="2265011060429742344" name="clock_style">"Стиль"</string>
+    <string msgid="3561772046433483980" name="collapse_alarm">"Згорнути"</string>
+    <string msgid="2194676418924016327" name="control_set_alarm">"Установити сигнал"</string>
+    <string msgid="7984755014526510295" name="day">"1 дн."</string>
+    <string msgid="971998564991636532" name="day_concat">", "</string>
+    <string msgid="2070509222727852210" name="days">"<ns1:g id="DAYS">%s</ns1:g> дн."</string>
+    <string msgid="5590025289805630372" name="default_label">"Сигнал"</string>
+    <string msgid="4549726190682964245" name="default_ringtone_setting_title">"Устан. мелодію за умовч."</string>
+    <string msgid="5732434972457000541" name="delete">"Видалити"</string>
+    <string msgid="3457780990646206817" name="delete_alarm">"Видалити сигнал"</string>
+    <string msgid="6578572637340860840" name="delete_alarm_confirm">"Видалити цей сигнал?"</string>
+    <string msgid="1220848140260509437" name="deleted_message">"Видалено"</string>
+    <string msgid="8240473964024874053" name="description_direction_down">"Проведіть пальцем униз, щоб відкласти"</string>
+    <string msgid="6328816971226781776" name="description_direction_left">"Проведіть пальцем ліворуч, щоб відкласти"</string>
+    <string msgid="1615911557926085934" name="description_direction_right">"Проведіть пальцем праворуч, щоб відхилити"</string>
+    <string msgid="7875287578324520904" name="description_direction_up">"Проведіть пальцем угору, щоб відхилити"</string>
+    <string msgid="4207371097361657274" name="desk_clock_button_description">"Показ годинника"</string>
+    <string msgid="2326954556720571358" name="digital_gadget">"Цифровий годинник"</string>
+    <string msgid="5889378670229554109" name="disable_alarm">"Вимкнути сигнал"</string>
+    <string msgid="6509722361933858451" name="done">"Готово"</string>
+    <string msgid="1834599140632142536" name="enable_alarm">"Увімкнути сигнал"</string>
+    <string msgid="4100909974923444602" name="every_day">"Щодня"</string>
+    <string msgid="7392616528943305020" name="expand_alarm">"Посилити сигнал"</string>
+    <!-- From: file:/Users/QingxiaoDong/GitHub/mocca/mobile-applications/labs/lab1/DeskClock/app/src/main/res/values-uk/donottranslate.xml -->
+    <eat-comment/>
+    <string name="full_wday_month_day_no_year">E, d MMMM</string>
+    <!-- From: file:/Users/QingxiaoDong/GitHub/mocca/mobile-applications/labs/lab1/DeskClock/app/src/main/res/values-uk/strings.xml -->
+    <eat-comment/>
+    <string msgid="1151743663255257668" name="gallery_button_description">"Галерея"</string>
+    <string msgid="7786263119482654015" name="help">"довідка"</string>
+    <string msgid="3217727306480505694" name="hide_clock">"Схов. годинник"</string>
+    <string msgid="3383859096809056157" name="home_button_description">"Панель запуску"</string>
+    <string msgid="4436139365695453870" name="home_label">"Дім"</string>
+    <string msgid="9199730676287974501" name="home_time_zone">"Рідний часовий пояс"</string>
+    <string msgid="807894493443834624" name="home_time_zone_title">"Рідний часовий пояс"</string>
+    <string msgid="2546819039651509323" name="hour">"1 год."</string>
+    <string msgid="2071487018566991613" name="hours">"<ns1:g id="HOURS">%s</ns1:g> год."</string>
+    <string msgid="3393478155635368097" name="hours_label">"год"</string>
+    <string msgid="8652842524970971830" name="hours_label_description">"год."</string>
+    <string msgid="162189613902857319" name="label">"Мітка"</string>
+    <string msgid="8736179296142915727" name="label_description">"Мітка"</string>
+    <string msgid="4699506713571930740" name="label_unlabeled"/>
+    <string msgid="6523322777415268044" name="loading_ringtone">"Завантаж. мелодії…"</string>
+    <string msgid="5612760670606829805" name="menu_clock">"Годинник"</string>
+    <string msgid="3241995064554071588" name="menu_desk_clock">"Настільн. год-к"</string>
+    <string msgid="7204602994918829751" name="menu_edit_alarm">"Редаг. сигнал"</string>
+    <string msgid="4570953476186849841" name="menu_item_help">"Довідка"</string>
+    <string msgid="3486930302245398975" name="menu_item_night_mode">"Нічний режим"</string>
+    <string msgid="1413723516369078665" name="menu_item_settings">"Налаштування"</string>
+    <string msgid="3396117705293574701" name="menu_stopwatch">"Секундомір"</string>
+    <string msgid="6459070074762877114" name="menu_timer">"Таймер"</string>
+    <string msgid="2486157997434653710" name="minute">"1 хв."</string>
+    <string msgid="6115838729146292526" name="minutes">"<ns1:g id="MINUTES">%s</ns1:g> хв."</string>
+    <string msgid="3568098128251438588" name="minutes_label">"хв"</string>
+    <string msgid="965686733490357796" name="minutes_label_description">"хв."</string>
+    <string msgid="1626593420810117999" name="music_button_description">"Музика"</string>
+    <string msgid="54104287800571769" name="never">"Ніколи"</string>
+    <string msgid="2650244835760747046" name="next_alarm_description">"Наступний сигнал: <ns1:g id="ALARM_TIME">%s</ns1:g>"</string>
+    <string msgid="6136454740115613653" name="next_timer_notif">"Наступний таймер: <ns1:g id="TIME_REMAINING">%s</ns1:g>"</string>
+    <string msgid="1017350187324162631" name="night_mode_summary">"Дуже тьмяний дисплей (для темних приміщень)"</string>
+    <string msgid="5983813889469616299" name="night_mode_title">"Нічний режим"</string>
+    <string msgid="990894208217576381" name="nightmode_button_description">"Тьмяно"</string>
+    <string msgid="9100911171235162926" name="revert">"Відмінити"</string>
+    <string msgid="9110746249688559579" name="ringtone">"Сигнал дзвінка"</string>
+    <string msgid="7580922112921069925" name="ringtone_description">"Сигнал дзвінка"</string>
+    <string msgid="7013450738357352801" name="screensaver_settings">"Параметри заставки"</string>
+    <string msgid="124655952824003246" name="seconds_label">"с"</string>
+    <string msgid="3821620053141299692" name="seconds_label_description">"с."</string>
+    <string msgid="775983396630163739" name="see_all">"Показати всі…"</string>
+    <string msgid="9148359866152726808" name="set_alarm">"Налашт. сигнал"</string>
+    <string msgid="5849739030579520686" name="settings">"Налаштув-ня"</string>
+    <string msgid="8358759982675616915" name="show_clock">"Показ. годинник"</string>
+    <string msgid="8605302849408279221" name="silent_alarm_summary">"Беззвучний"</string>
+    <string msgid="2077577763821006919" name="slash">"/"</string>
+    <string msgid="1097309861110780483" name="snooze_duration_title">"Відкласти на"</string>
+    <string msgid="8416624630388063996" name="stopwatch_service_desc">"Послуга \"Секундомір\" для запуску сповіщення."</string>
+    <string msgid="6992264696039004233" name="sw_lap_button">"Коло"</string>
+    <string msgid="3535420316052647126" name="sw_notification_lap_number">"Коло <ns1:g id="NUMBER">%d</ns1:g>"</string>
+    <string msgid="6616804728322906117" name="sw_reset_button">"Скинути"</string>
+    <string msgid="2569360966002022248" name="sw_resume_button">"Відновити"</string>
+    <string msgid="4478648110382859382" name="sw_share_button">"Надіслати"</string>
+    <string msgid="614390674795945007" name="sw_share_laps">"Час кола:"</string>
+    <string msgid="7703563468204234405" name="sw_share_main">"Мій час – <ns1:g id="TIME">%s</ns1:g>"</string>
+    <string msgid="8373422516681242270" name="sw_start_button">"Почати"</string>
+    <string msgid="8322958613123274451" name="sw_stop_button">"Зупинити"</string>
+    <string msgid="783124901663086172" name="swn_stopped">"Зупинено"</string>
+    <string msgid="8067216534232296518" name="time">"Час"</string>
+    <string msgid="6001006474735281911" name="time_picker_00_label">":00"</string>
+    <string msgid="1027250857384838129" name="time_picker_30_label">":30"</string>
+    <string msgid="6754113715199751083" name="time_picker_ampm_label">"--"</string>
+    <string msgid="7437106489606013077" name="time_picker_cancel">"Скасувати"</string>
+    <string msgid="331153175471468051" name="time_picker_set">"ОК"</string>
+    <string msgid="7484926510054777041" name="time_picker_time_seperator">":"</string>
+    <string msgid="862733633862574752" name="timer_add_timer">"Додати таймер"</string>
+    <string msgid="3572868404230815644" name="timer_cancel">"Скасувати"</string>
+    <string msgid="8699122001991909302" name="timer_delete">"Видалити"</string>
+    <string msgid="2815524107015816453" name="timer_delete_confirmation">"Видалити цей таймер?"</string>
+    <string msgid="4933184831583137249" name="timer_notification_label">"Таймер"</string>
+    <string msgid="6631211310420106116" name="timer_plus_one">"Додати 1 хвилину"</string>
+    <string msgid="7848424809190171640" name="timer_reset">"Скинути"</string>
+    <string msgid="2620214305660322415" name="timer_ring_service_desc">"Служба відтворення звуків для набору таймерів у Годиннику."</string>
+    <string msgid="6158486445614356442" name="timer_start">"Почати"</string>
+    <string msgid="3361154678667736722" name="timer_stop">"Зупинити"</string>
+    <string msgid="2730331837832462008" name="timer_stopped">"Таймер зупинився"</string>
+    <string msgid="9190440395938519009" name="timer_times_up">"Час вийшов"</string>
+    <string msgid="5570729467344408506" name="timers_in_use">"Таймерів: <ns1:g id="NUMBER">%d</ns1:g>"</string>
+    <string msgid="2393640808691864520" name="timers_stopped">"Зупинилося таймерів: <ns1:g id="NUMBER">%d</ns1:g>"</string>
+    <string msgid="8768042543750036853" name="volume_button_dialog_title">"Функція кнопки"</string>
+    <string msgid="6937131248843413357" name="volume_button_setting_title">"Кнопки гучності"</string>
+    <string msgid="3425804832021006835" name="weather_fetch_failure">"Інформація про погоду зараз не доступна."</string>
+    <string msgid="790841709484678848" name="widget_loading_ms">"Завантаження"</string>
+    <string msgid="5911196322328341288" name="world_day_of_week_label">"/ <ns1:g id="LABEL">%s</ns1:g>"</string>
+    <string msgid="7102083421938355017" name="zero">"0"</string>
+</resources>

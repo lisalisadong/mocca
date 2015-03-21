@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/MyFirstApp/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/21.0.3/21.0.3.iml" filepath="$PROJECT_DIR$/MyFirstApp/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/21.0.3/21.0.3.iml" />
+      <module fileurl="file://$PROJECT_DIR$/MyFirstApp/app/build/intermediates/exploded-aar/com.android.support/support-v4/21.0.3/21.0.3.iml" filepath="$PROJECT_DIR$/MyFirstApp/app/build/intermediates/exploded-aar/com.android.support/support-v4/21.0.3/21.0.3.iml" />
+      <module fileurl="file://$PROJECT_DIR$/DeskClock/app/build/generated/source/buildConfig/androidTest/androidTest.iml" filepath="$PROJECT_DIR$/DeskClock/app/build/generated/source/buildConfig/androidTest/androidTest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/TheAnswer/app/build/generated/source/buildConfig/androidTest/androidTest1.iml" filepath="$PROJECT_DIR$/TheAnswer/app/build/generated/source/buildConfig/androidTest/androidTest1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/WikiNotes/app/build/generated/source/buildConfig/androidTest/androidTest2.iml" filepath="$PROJECT_DIR$/WikiNotes/app/build/generated/source/buildConfig/androidTest/androidTest2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/MyFirstApp/app/src/androidTest/androidTest3.iml" filepath="$PROJECT_DIR$/MyFirstApp/app/src/androidTest/androidTest3.iml" />
+      <module fileurl="file://$PROJECT_DIR$/TheAnswer/app/build/generated/source/buildConfig/buildConfig.iml" filepath="$PROJECT_DIR$/TheAnswer/app/build/generated/source/buildConfig/buildConfig.iml" />
+      <module fileurl="file://$PROJECT_DIR$/WikiNotes/app/build/generated/source/buildConfig/buildConfig1.iml" filepath="$PROJECT_DIR$/WikiNotes/app/build/generated/source/buildConfig/buildConfig1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/DeskClock/app/build/generated/source/buildConfig/buildConfig2.iml" filepath="$PROJECT_DIR$/DeskClock/app/build/generated/source/buildConfig/buildConfig2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/MyFirstApp/app/build/generated/source/buildConfig/buildConfig3.iml" filepath="$PROJECT_DIR$/MyFirstApp/app/build/generated/source/buildConfig/buildConfig3.iml" />
+      <module fileurl="file://$PROJECT_DIR$/DeskClock/app/build/intermediates/manifests/androidTest/debug/debug.iml" filepath="$PROJECT_DIR$/DeskClock/app/build/intermediates/manifests/androidTest/debug/debug.iml" />
+      <module fileurl="file://$PROJECT_DIR$/DeskClock/app/build/intermediates/manifests/full/debug/debug.iml" filepath="$PROJECT_DIR$/DeskClock/app/build/intermediates/manifests/full/debug/debug.iml" />
+      <module fileurl="file://$PROJECT_DIR$/MyFirstApp/app/build/intermediates/manifests/full/debug/debug.iml" filepath="$PROJECT_DIR$/MyFirstApp/app/build/intermediates/manifests/full/debug/debug.iml" />
+      <module fileurl="file://$PROJECT_DIR$/TheAnswer/app/build/intermediates/manifests/androidTest/debug/debug.iml" filepath="$PROJECT_DIR$/TheAnswer/app/build/intermediates/manifests/androidTest/debug/debug.iml" />
+      <module fileurl="file://$PROJECT_DIR$/TheAnswer/app/build/intermediates/manifests/full/debug/debug.iml" filepath="$PROJECT_DIR$/TheAnswer/app/build/intermediates/manifests/full/debug/debug.iml" />
+      <module fileurl="file://$PROJECT_DIR$/WikiNotes/app/build/intermediates/manifests/androidTest/debug/debug.iml" filepath="$PROJECT_DIR$/WikiNotes/app/build/intermediates/manifests/androidTest/debug/debug.iml" />
+      <module fileurl="file://$PROJECT_DIR$/WikiNotes/app/build/intermediates/manifests/full/debug/debug.iml" filepath="$PROJECT_DIR$/WikiNotes/app/build/intermediates/manifests/full/debug/debug.iml" />
+      <module fileurl="file://$PROJECT_DIR$/MyFirstApp/app/src/main/main.iml" filepath="$PROJECT_DIR$/MyFirstApp/app/src/main/main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/TheAnswer/app/src/main/main1.iml" filepath="$PROJECT_DIR$/TheAnswer/app/src/main/main1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/WikiNotes/app/src/main/main2.iml" filepath="$PROJECT_DIR$/WikiNotes/app/src/main/main2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/DeskClock/app/src/main/main3.iml" filepath="$PROJECT_DIR$/DeskClock/app/src/main/main3.iml" />
+      <module fileurl="file://$PROJECT_DIR$/MyFirstApp/app/build/generated/source/r/r.iml" filepath="$PROJECT_DIR$/MyFirstApp/app/build/generated/source/r/r.iml" />
+      <module fileurl="file://$PROJECT_DIR$/DeskClock/app/build/generated/source/r/r1.iml" filepath="$PROJECT_DIR$/DeskClock/app/build/generated/source/r/r1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/WikiNotes/app/build/generated/source/r/r2.iml" filepath="$PROJECT_DIR$/WikiNotes/app/build/generated/source/r/r2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/TheAnswer/app/build/generated/source/r/r3.iml" filepath="$PROJECT_DIR$/TheAnswer/app/build/generated/source/r/r3.iml" />
+      <module fileurl="file://$PROJECT_DIR$/MyFirstApp/app/build/intermediates/manifests/full/release/release.iml" filepath="$PROJECT_DIR$/MyFirstApp/app/build/intermediates/manifests/full/release/release.iml" />
+    </modules>
+  </component>
+</project>
+

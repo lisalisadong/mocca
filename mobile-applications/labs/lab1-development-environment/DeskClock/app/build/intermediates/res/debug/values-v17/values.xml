@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- From: file:/Users/QingxiaoDong/GitHub/mocca/mobile-applications/labs/lab1/DeskClock/app/src/main/res/values-v17/config.xml -->
+    <eat-comment/>
+    <bool name="config_dockAppEnabled">false</bool>
+</resources>
