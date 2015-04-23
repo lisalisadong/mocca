@@ -42,7 +42,7 @@ public class MainActivity extends LifecycleLoggingActivity {
      * doesn't specify otherwise.
      */
     private Uri mDefaultUrl =
-        Uri.parse("http://www.dre.vanderbilt.edu/~schmidt/robot.png");
+        Uri.parse("http://images.huffingtonpost.com/2015-03-12-1426188041-1888511-EarthDay-thumb.jpg");
 
     /**
      * Hook method called when a new instance of Activity is created.
